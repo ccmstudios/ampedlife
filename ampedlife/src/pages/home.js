@@ -92,7 +92,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac
               <div id='homeblogbutton'><a href='instagram.com/ampedlife360'>Read More</a></div>
 
               </div>
-              <img id ='babypic1' alt ='newborn picture'src ={Babypic1}/>
+              <img id ='babypic1' alt ='newborn'src ={Babypic1}/>
           </div>
           <div id ='igfeed'>
           <InstagramEmbed
