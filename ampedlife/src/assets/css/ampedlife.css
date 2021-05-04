@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+body{
+background-image:url(../images/logo.jpg);
+filter: sepia(20%);
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+/* navbar start */
+#navbar{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    background: linear-gradient(45deg,purple, pink);
+}
+
+#navbar p{
+    color: white;
+    font-size: 30px;
+    font-family: 'Shadows Into Light', cursive;
+    margin-top: 30px;
+}
+
+.logo-transparent{
+    width: 100px;
+}
+/* navbar finish */
+
+/* Home page start */
+
+#carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+width: 75%;
+filter: hue-rotate(240deg) url('#purple-warm');
+}
+
+
+#welcomeintro{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: linear-gradient(45deg,purple, pink);
+
+}
+
+#welcomemessage{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    background-color: linear-gradient(45deg,purple, pink);
+}
+
+#startbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+background-color: aqua;
+width: fit-content;
+padding: 10px;
+border-color: black;
+border:2px;
+border-style: solid;
+width: 100px;
+font-family: 'Shadows Into Light', cursive;
+color: white;
+font-weight: bold;
+}
+
+#hardbreak{
+    width: 80%;
+    font-weight: bold;
+    height: 10px;
+    border-width: 3px black;
+}
+
+
+#homepics{
+    width: 30%;
+}
+#babypic1{
+    width: 30%;
+}
+#rowone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+#rowtwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+#rowthree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+#homeblog{
+    display: flex;
+    background: linear-gradient(115deg,pink, purple, salmon);
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#homeblogbutton{
+    border: purple;
+    padding: 10px;
+    border-style: solid;
+    border-width: 10px;
+    font-size: 24px;
+}
+/* Home page finish */
