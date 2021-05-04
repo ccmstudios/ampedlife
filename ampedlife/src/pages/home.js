@@ -33,7 +33,7 @@ class Home extends React.Component {
           </div>
           <hr id='hardbreak'></hr>
           <row id='rowone'>
-<img id='homepics'alt='pregnancy picture' src ={Jumboimage1}/> 
+<img id='homepics'alt='pregnancy ' src ={Jumboimage1}/> 
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac
           varius tortor. Fusce lobortis ex vitae imperdiet lacinia. Morbi
@@ -64,10 +64,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac
           auctor venenatis mauris, at semper eros suscipit et. Pellentesque non
           neque felis.
 </p>
-<img id='homepics' alt='baby picture' src ={Jumboimage2}/>
+<img id='homepics' alt='baby' src ={Jumboimage2}/>
           </row>
           <row id ='rowthree'>
-<img id='homepics' alt='family pic' src ={Jumboimage3}/>
+<img id='homepics' alt='family' src ={Jumboimage3}/>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac
           varius tortor. Fusce lobortis ex vitae imperdiet lacinia. Morbi
