@@ -29,11 +29,11 @@ class Home extends React.Component {
           neque felis.
         </p>
           <div id ='startbutton'>
-              <a href='#' >Let's Start Here</a>
+              <a href='instagram.com/ampedlife360' >Let's Start Here</a>
           </div>
           <hr id='hardbreak'></hr>
           <row id='rowone'>
-<img id='homepics' src ={Jumboimage1}/> 
+<img id='homepics'alt='pregnancy picture' src ={Jumboimage1}/> 
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac
           varius tortor. Fusce lobortis ex vitae imperdiet lacinia. Morbi
@@ -64,10 +64,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac
           auctor venenatis mauris, at semper eros suscipit et. Pellentesque non
           neque felis.
 </p>
-<img id='homepics' src ={Jumboimage2}/>
+<img id='homepics' alt='baby picture' src ={Jumboimage2}/>
           </row>
           <row id ='rowthree'>
-<img id='homepics' src ={Jumboimage3}/>
+<img id='homepics' alt='family pic' src ={Jumboimage3}/>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac
           varius tortor. Fusce lobortis ex vitae imperdiet lacinia. Morbi
@@ -89,10 +89,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac
               <h3>The</h3>
               <h2>Living the Amped Life</h2>
               <h3>Blog</h3>
-              <div id='homeblogbutton'><a href='#'>Read More</a></div>
+              <div id='homeblogbutton'><a href='instagram.com/ampedlife360'>Read More</a></div>
 
               </div>
-              <img id ='babypic1'src ={Babypic1}/>
+              <img id ='babypic1' alt ='newborn picture'src ={Babypic1}/>
           </div>
           <div id ='igfeed'>
           <InstagramEmbed

@@ -5,7 +5,7 @@ import Blog from './pages/blog'
 import Contact from './pages/contact'
 import Clientportal from './pages/clientportal'
 import Services from './pages/services'
-import {BrowserRouter as Router, Link, Switch, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Navbar from './components/navbar';
 import './assets/css/ampedlife.css'
 import 'bootstrap/dist/css/bootstrap.min.css';

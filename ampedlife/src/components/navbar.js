@@ -21,8 +21,10 @@ class Navbar extends React.Component{
             <Link to='/services'>
                 <p><li>Services</li></p>
             </Link>
+<Link to='/'>
 
-            <img src ={Logo} className ='logo-transparent'/>
+            <img src ={Logo} alt ='amped life logo'className ='logo-transparent'/>
+</Link>
             <Link to='/blog'>
                 <p><li>Blog</li></p>
             </Link>
