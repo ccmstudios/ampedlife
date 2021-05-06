@@ -4,7 +4,7 @@ import Amexia from "../assets/images/amexia.jpg";
 class About extends React.Component {
   render() {
     return (
-      <div>
+      <div id ='about'>
         <h1>Meet Your Doula</h1>
         <h2>It's baby time</h2>
         <div id="aboutmain">

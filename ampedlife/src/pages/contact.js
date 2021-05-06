@@ -2,13 +2,15 @@ import React from 'react'
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 import Col from 'react-bootstrap/Col'
+import Babysmile from '../assets/images/babysmile.jpg'
 class Contact extends React.Component{
     render(){
         return(
             <div>
 <h1>This Is Contact</h1>
-<div>
-<Form>
+<div id = 'form'> 
+<img id = 'babysmile'src = {Babysmile} alt = 'baby smiling' />
+<Form id='contactform'>
   <Form.Row>
     <Form.Group as={Col} controlId="formGridEmail">
       <Form.Label>Email</Form.Label>

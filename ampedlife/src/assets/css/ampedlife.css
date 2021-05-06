@@ -88,6 +88,9 @@ font-weight: bold;
 
 #homepics{
     width: 30%;
+    -webkit-box-shadow:  3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:     3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+    box-shadow:          3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 #babypic1{
     width: 30%;
@@ -129,3 +132,91 @@ font-weight: bold;
     font-size: 24px;
 }
 /* Home page finish */
+
+
+/* About page start */
+#about{
+    padding: 10%;
+    width: 60%;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+#about img{
+    width: 75%;
+    border-radius: 5%;
+    -webkit-box-shadow:  3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:     3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+    box-shadow:          3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+#about p{
+    display: flex;
+  padding: 50px;
+    text-align: center;
+
+}
+
+#about a{
+    font-size: 40px;
+color:purple;
+text-shadow: 2px 2px pink;
+}
+
+/* About page finish */
+
+/* Services Page start */
+#services{
+    display: inline;
+    padding: 5
+    0px;
+    justify-content: center;
+    align-items: center;
+}
+
+#services img{
+    width: 70%;
+    border-radius: 5%;
+    -webkit-box-shadow:  3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:     3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+    box-shadow:          3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+#services ul{
+    display: inline;
+    justify-content: space-between;
+list-style: none;
+
+}
+
+#services li{
+    padding: 20px;
+}
+/* Servicds Page finish */
+
+/* Contact Page start */
+#form{
+    padding: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#babysmile{
+    width: 30%;
+    border-radius: 5%;
+}
+
+#contactform{
+    padding: 10px;
+    background: linear-gradient(pink
+    ,lavender);
+    border-radius: 5%;
+    -webkit-box-shadow:  3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:     3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+    box-shadow:          3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    
+}
+/* contact Page finish */
