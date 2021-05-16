@@ -7,7 +7,7 @@ class Contact extends React.Component{
     render(){
         return(
             <div>
-<h1>This Is Contact</h1>
+<h1>Contact me for your I would be honored to be a part of your journey.  I love what I (do)ula! </h1>
 <div id = 'form'> 
 <img id = 'babysmile'src = {Babysmile} alt = 'baby smiling' />
 <Form id='contactform'>
