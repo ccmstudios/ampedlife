@@ -215,6 +215,12 @@ list-style: none;
     text-shadow: 1px 1px black;
 }
 
+#services li:hover{
+    transform: scale(1.1);
+    transition: ease 0.5s;
+    color: gold;
+}
+
 #servicelist{
     display: inline-block;
   margin-left: 0;
