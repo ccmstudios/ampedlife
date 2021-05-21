@@ -389,9 +389,7 @@ background-color: plum;
 /* contact Page finish */
 
 #coming h1{
-    color: white;
-    font-size: 78px;
-    text-shadow: 2px 2px black;
+
 }
 
 #coming{
@@ -400,6 +398,9 @@ background-color: plum;
 #test{
     display: flex;
     justify-content: center;
+    color: white;
+    font-size: 78px;
+    text-shadow: 2px 2px black;
     align-items: center;
     height:700px;
     background-size: cover;

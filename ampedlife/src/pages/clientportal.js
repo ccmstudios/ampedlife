@@ -1,13 +1,14 @@
-import React from 'react'
+import React from "react";
+import Coming from "../components/comingsoon";
 
-class Clientportal extends React.Component{
-    render(){
-        return(
-            <div>
-<h1>This Is Clientportal</h1>
-            </div>
-        )
-    }
+class Clientportal extends React.Component {
+  render() {
+    return (
+      <div>
+        <Coming />
+      </div>
+    );
+  }
 }
 
 export default Clientportal;

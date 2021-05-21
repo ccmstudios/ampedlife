@@ -4,7 +4,7 @@ import Coming from '../components/comingsoon'
 class Blog extends React.Component{
     render(){
         return(
-            <div id ='test'>
+            <div>
 <Coming/>            
 </div>
         )
