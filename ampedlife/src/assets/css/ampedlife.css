@@ -194,6 +194,7 @@ text-shadow: 2px 2px pink;
     align-items: center;
 }
 
+
 #services img{
     width: 70%;
     border-radius: 5%;
@@ -205,8 +206,8 @@ text-shadow: 2px 2px pink;
 #services ul{
     display: inline;
     justify-content: space-between;
-list-style: none;
-
+    list-style: none;
+    
 }
 
 #services li{
@@ -223,8 +224,8 @@ list-style: none;
 
 #servicelist{
     display: inline-block;
-  margin-left: 0;
-  margin-right: 0;
+    margin-left: 0;
+    margin-right: 0;
     width: 50%;
     background: linear-gradient(45deg,blue,pink);
     border-radius: 5%;
@@ -256,3 +257,28 @@ list-style: none;
     
 }
 /* contact Page finish */
+
+#coming h1{
+    color: white;
+    font-size: 78px;
+    text-shadow: 2px 2px black;
+}
+
+#coming{
+    margin-left: 0;
+}
+#test{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:700px;
+    background-size: cover;
+    background:linear-gradient(45deg,pink,blue);
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    -webkit-box-shadow:  3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:     3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+    box-shadow:          3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}

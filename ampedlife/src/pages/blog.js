@@ -1,11 +1,12 @@
 import React from 'react'
+import Coming from '../components/comingsoon'
 
 class Blog extends React.Component{
     render(){
         return(
-            <div>
-<h1>This Is Blog</h1>
-            </div>
+            <div id ='test'>
+<Coming/>            
+</div>
         )
     }
 }
