@@ -3,7 +3,7 @@
 
 
 body{
-background-image:url(../images/logo.jpg);
+background-color:gray;
 filter: sepia(20%);
 background-size: cover;
 background-attachment: fixed;
@@ -163,7 +163,7 @@ border-radius: 5%;
 }
 
 #about img{
-    width: 75%;
+    width: 25%;
     border-radius: 5%;
     -webkit-box-shadow:  3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
     -moz-box-shadow:     3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
@@ -171,18 +171,49 @@ border-radius: 5%;
 }
 
 #about p{
-    display: flex;
+    display: inline-block;
   padding: 50px;
-    text-align: center;
+    text-align: left;
 
 }
 
 #about a{
     font-size: 40px;
-color:purple;
-text-shadow: 2px 2px pink;
+color:white;
+text-shadow: 2px 2px black;
 }
 
+#about h4{
+    text-align: left;
+    display: inline-block;
+    padding: 50px;
+}
+
+#aboutmain{
+    display: flex;
+justify-content: center;}
+
+#abouttext{
+    width: 50%;
+}
+#abouttext h1{
+    font-weight: bold;
+    font-style: italic;
+}
+
+#chat{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: purple;
+    width: fit-content;
+    border-radius: 7%;
+}
+
+#chat:hover{
+    background-color: pink;
+    
+}
 /* About page finish */
 
 /* Services Page start */
@@ -249,7 +280,7 @@ text-shadow: 2px 2px pink;
 #contactform{
     padding: 10px;
     background: linear-gradient(pink
-    ,lavender);
+    ,blue);
     border-radius: 5%;
     -webkit-box-shadow:  3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
     -moz-box-shadow:     3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
