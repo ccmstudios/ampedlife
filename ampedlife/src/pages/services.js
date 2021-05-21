@@ -1,29 +1,281 @@
 import React from "react";
 import Pregnant from "../assets/images/pregnant.jpg";
+import ServicesNav from "../components/servicesnav";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 
 class Services extends React.Component {
   render() {
     return (
       <div id="services">
-        <h1>This Is Services</h1>
-        <h2>Let's get started</h2>
-        <img src={Pregnant} alt="any day now" />
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-          ultricies nibh augue, sit amet semper nulla consequat eget. Aenean vel
-          dignissim ligula, vitae viverra metus. Quisque quis turpis lectus.
-          Quisque lacinia, risus posuere lobortis scelerisque, turpis erat
-          rhoncus mauris, at consectetur turpis nibh ac mi. Ut maximus tellus
-          turpis, eget elementum metus accumsan sed. Duis non tellus semper,
-          viverra massa nec, ullamcorper augue. Duis a magna arcu. Vestibulum
-          scelerisque nibh sit amet elit interdum dignissim. Nulla consectetur
-          quam vitae ipsum tempus tincidunt. In aliquet sodales ex non vehicula.
-          Nullam vitae euismod sem. Maecenas dapibus metus et convallis auctor.
-          Curabitur aliquam luctus massa, eget interdum ex placerat at. Nam
-          faucibus molestie ullamcorper.
-        </p>
+        <h1>Our Services</h1>
+        <ServicesNav />
+        <Row id="servicerows">
+          <Col sm={8}>
+            <div id="servicesection">
+              <div id="servicesubsection">
+                <div id="servicetitle">
+                  <h1 id="birthplanning">Birth Planning Only $120</h1>
+                  <br></br>
+                  <br></br>
+                  <h6 small class="text-muted">
+                    In person or Virtual assistance available for this services
+                  </h6>
+                  <img src={Pregnant} alt="pregnant woman" />
+                  <br></br>
+                  <br></br>
+
+                  <a href="www.instagram.com">
+                    <h2>Expand for more details</h2>
+                  </a>
+                </div>
+                <div id="servicedescription">
+                  <h4>
+                    This services is for clients who would like to prepare a
+                    plan for their birth and postpartum journey but may not
+                    require the in-person support. I will discuss the process
+                    and the options with you to help meet your needs during
+                    labor and birth.
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </Col>
+          <Col sm={4}>
+            <div id="servicebuttonbox">
+              <div>
+              <div id='servicebutton' >
+                <h2>
+                  <a href="#">Let's Chat</a>
+                </h2>
+              </div>
+
+              </div>
+            </div>
+          </Col>
+        </Row>
+        <Row id="servicerows">
+          <Col sm={8}>
+            <div id="servicesection">
+              <div id="servicesubsection">
+                <div id="servicetitle">
+                  <h1 id='birthdoula'>Birth Doula Support $120</h1>
+                  <br></br>
+                  <br></br>
+                  <h6 small class="text-muted">
+                    In person or Virtual assistance available for this services
+                  </h6>
+                  <img src={Pregnant} alt="pregnant woman" />
+                  <br></br>
+                  <br></br>
+
+                  <a href="www.instagram.com">
+                    <h2>Expand for more details</h2>
+                  </a>
+                </div>
+                <div id="servicedescription">
+                  <h4>
+                    This services is for clients who would like to prepare a
+                    plan for their birth and postpartum journey but may not
+                    require the in-person support. I will discuss the process
+                    and the options with you to help meet your needs during
+                    labor and birth.
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </Col>
+          <Col sm={4}>
+            <div id="servicebuttonbox">
+              <div>
+              <div id='servicebutton' >
+                <h2>
+                  <a href="#">Let's Chat</a>
+                </h2>
+              </div>
+
+              </div>
+            </div>
+          </Col>
+        </Row>
+        <Row id="servicerows">
+          <Col sm={8}>
+            <div id="servicesection">
+              <div id="servicesubsection">
+                <div id="servicetitle">
+                  <h1 id='birthafterloss'>Birth After Loss Support $120</h1>
+                  <br></br>
+                  <br></br>
+                  <h6 small class="text-muted">
+                    In person or Virtual assistance available for this services
+                  </h6>
+                  <img src={Pregnant} alt="pregnant woman" />
+                  <br></br>
+                  <br></br>
+
+                  <a href="www.instagram.com">
+                    <h2>Expand for more details</h2>
+                  </a>
+                </div>
+                <div id="servicedescription">
+                  <h4>
+                    This services is for clients who would like to prepare a
+                    plan for their birth and postpartum journey but may not
+                    require the in-person support. I will discuss the process
+                    and the options with you to help meet your needs during
+                    labor and birth.
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </Col>
+          <Col sm={4}>
+            <div id="servicebuttonbox">
+              <div>
+              <div id='servicebutton' >
+                <h2>
+                  <a href="#">Let's Chat</a>
+                </h2>
+              </div>
+
+              </div>
+            </div>
+          </Col>
+        </Row>
+        <Row id="servicerows">
+          <Col sm={8}>
+            <div id="servicesection">
+              <div id="servicesubsection">
+                <div id="servicetitle">
+                  <h1 id='postpartum'>Postpartum Doula Support $120</h1>
+                  <br></br>
+                  <br></br>
+                  <h6 small class="text-muted">
+                    In person or Virtual assistance available for this services
+                  </h6>
+                  <img src={Pregnant} alt="pregnant woman" />
+                  <br></br>
+                  <br></br>
+
+                  <a href="www.instagram.com">
+                    <h2>Expand for more details</h2>
+                  </a>
+                </div>
+                <div id="servicedescription">
+                  <h4>
+                    This services is for clients who would like to prepare a
+                    plan for their birth and postpartum journey but may not
+                    require the in-person support. I will discuss the process
+                    and the options with you to help meet your needs during
+                    labor and birth.
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </Col>
+          <Col sm={4}>
+            <div id="servicebuttonbox">
+              <div>
+              <div id='servicebutton' >
+                <h2>
+                  <a href="#">Let's Chat</a>
+                </h2>
+              </div>
+
+              </div>
+            </div>
+          </Col>
+        </Row>
+        <Row id="servicerows">
+          <Col sm={8}>
+            <div id="servicesection">
+              <div id="servicesubsection">
+                <div id="servicetitle">
+                  <h1 id='bereavement'>Bereavement Doula Support $120</h1>
+                  <br></br>
+                  <br></br>
+                  <h6 small class="text-muted">
+                    In person or Virtual assistance available for this services
+                  </h6>
+                  <img src={Pregnant} alt="pregnant woman" />
+                  <br></br>
+                  <br></br>
+
+                  <a href="www.instagram.com">
+                    <h2>Expand for more details</h2>
+                  </a>
+                </div>
+                <div id="servicedescription">
+                  <h4>
+                    This services is for clients who would like to prepare a
+                    plan for their birth and postpartum journey but may not
+                    require the in-person support. I will discuss the process
+                    and the options with you to help meet your needs during
+                    labor and birth.
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </Col>
+          <Col sm={4}>
+            <div id="servicebuttonbox">
+              <div>
+              <div id='servicebutton' >
+                <h2>
+                  <a href="#">Let's Chat</a>
+                </h2>
+              </div>
+
+              </div>
+            </div>
+          </Col>
+        </Row>
+        <Row id="servicerows">
+          <Col sm={8}>
+            <div id="servicesection">
+              <div id="servicesubsection">
+                <div id="servicetitle">
+                  <h1 id='virtual'>Virtual Doula Support $120</h1>
+                  <br></br>
+                  <br></br>
+                  <h6 small class="text-muted">
+                    In person or Virtual assistance available for this services
+                  </h6>
+                  <img src={Pregnant} alt="pregnant woman" />
+                  <br></br>
+                  <br></br>
+
+                  <a href="www.instagram.com">
+                    <h2>Expand for more details</h2>
+                  </a>
+                </div>
+                <div id="servicedescription">
+                  <h4>
+                    This services is for clients who would like to prepare a
+                    plan for their birth and postpartum journey but may not
+                    require the in-person support. I will discuss the process
+                    and the options with you to help meet your needs during
+                    labor and birth.
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </Col>
+          <Col sm={4}>
+            <div id="servicebuttonbox">
+              <div>
+              <div id='servicebutton' >
+                <h2>
+                  <a href="#">Let's Chat</a>
+                </h2>
+              </div>
+
+              </div>
+            </div>
+          </Col>
+        </Row>
         <hr></hr>
-        <div id ='servicelist'>
+        <div id="servicelist">
           <h3>In Person Services</h3>
           <ul>
             <li>Birth and Labor Doula $900</li>
@@ -55,7 +307,7 @@ class Services extends React.Component {
             <li>Postpartum Self-Care basket</li>
           </ul>
           <h3>Other Services</h3>
-          <p>
+          <p >
             Birth Planning Only $120 This service is for the individual who does
             not require in person support, but would like prepare a plan for
             their birth and postpartum Service Includes Assist with creating
@@ -70,6 +322,9 @@ class Services extends React.Component {
             keepsakes for your baby Provide individualised resources to support
             you on your journey Virtual services Support focusing
           </p>
+          {/* <div id="testbutton">
+            <h1>Test button</h1>
+          </div> */}
         </div>
       </div>
     );

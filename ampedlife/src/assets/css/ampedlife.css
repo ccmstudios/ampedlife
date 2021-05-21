@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
 
 body{
 background-color:gray;
@@ -223,8 +224,12 @@ justify-content: center;}
     0px;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
+#services h1{
+    font-family: 'Dancing Script', cursive;
+}
 
 #services img{
     width: 70%;
@@ -260,6 +265,100 @@ justify-content: center;}
     width: 50%;
     background: linear-gradient(45deg,blue,pink);
     border-radius: 5%;
+}
+
+#servicesnav{
+    font-family: 'Vidaloka', serif;
+    background: linear-gradient(45deg, pink, dodgerblue);
+}
+
+#servicesnav ul{
+    display: flex;
+
+}
+
+#servicesnav ul li{
+    color: black;
+    font-size: larger;
+}
+
+#servicerows{
+    padding: 80px;
+}
+
+#testbutton{
+    position: fixed;
+    top: 500px;
+    right: 40px;
+    border: 3px solid black;
+    z-index:999;
+    cursor: pointer;
+}
+
+#servicesection{
+    display: inline;
+    padding: 10px;
+    
+}
+
+#servicesection h1{
+    background-color: plum;
+}
+
+#servicetitle{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    background-color: plum;
+border: 10px;
+}
+
+#servicetitle img{
+    width: 70%;
+}
+#servicedescription{
+display: flex;
+align-items: center;
+justify-content: left;
+text-align: left;
+background-color: plum;
+
+}
+
+#servicedescription h4{
+    font-size: 22px;
+    padding: 20px;
+    position: relative;
+    right: 30px;
+}
+
+#servicesubsection{
+    display: flex;
+    height: 500px;
+    background-color: plum;
+}
+
+
+#servicebuttonbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: slategray;
+    height: 500px;
+    padding: 80px;
+    position: relative;
+    top: 25px;
+}
+
+#servicebutton{
+    background-color: black;
+    border-radius: 5%;
+    color: white;
+    box-shadow: 5px 5px purple;
+}
+
+#servicebutton a{
+    color: white;
 }
 /* Servicds Page finish */
 
