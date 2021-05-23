@@ -22,10 +22,12 @@ background-size: cover;
 }
 
 #navbar p{
-    color: black;
+    color: #800020;
     font-size: 30px;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Vidaloka', serif;
     margin-top: 30px;
+    text-decoration:none;
+    text-shadow: 1px 1px black;
 }
 
 .logo-transparent{
@@ -101,7 +103,18 @@ border-radius: 5%;
     border-width: 3px black;
 }
 
+#homemain{
+    width: 50%;
+    display: inline;
+    padding: 10px;
 
+}
+#homemain p{
+width: 50%;
+display: flex;
+margin-left: auto;
+margin-right: auto;
+}
 #homepics{
     width: 30%;
     -webkit-box-shadow:  3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
@@ -118,9 +131,15 @@ border-radius: 5%;
     padding: 20px;
     font-family: 'Shadows Into Light', cursive;
     font-size: 28px;
-
-
 }
+#lexi{
+width: 40%;
+border-radius: 5%;
+-webkit-box-shadow:  3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+-moz-box-shadow:     3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+box-shadow:          3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
 #rowtwo{
     display: flex;
     justify-content: center;
@@ -144,7 +163,7 @@ border-radius: 5%;
 
 #homeblog{
     display: flex;
-    background: linear-gradient(115deg,pink, purple, salmon);
+    background: linear-gradient(70deg,lightblue,pink);
     justify-content: space-around;
     padding: 20px;
 }
@@ -211,9 +230,11 @@ justify-content: center;}
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    background-color: purple;
+    border: solid 5px pink;
     width: fit-content;
     border-radius: 7%;
+    background: linear-gradient(45deg,lightblue,pink);
+
 }
 
 #chat:hover{
@@ -408,7 +429,10 @@ padding: 15px;
 
 #servicetabs{
     height: 1800px;
+    justify-content: space-evenly;
 }
+
+
 /* Servicds Page finish */
 
 /* Contact Page start */
@@ -416,19 +440,31 @@ padding: 15px;
     padding: 100px;
     width: 100%;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+margin-right: auto;
+height: fit-content;
 }
 
 #babysmile{
-    width: 30%;
+    position: relative;
+    bottom: 700px;
+    right:300px;
+    width: 20%;
     border-radius: 5%;
+    display: flex;
+    margin-left: auto;
+    justify-content: space-around;
 }
 
+#contactpics{
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+}
 #contactform{
+    width: 500px;
     padding: 10px;
-    background: linear-gradient(pink
-    ,blue);
+    background: linear-gradient(45deg,lightblue,pink);
+
     border-radius: 5%;
     -webkit-box-shadow:  3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
     -moz-box-shadow:     3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
@@ -453,7 +489,7 @@ padding: 15px;
     align-items: center;
     height:700px;
     background-size: cover;
-    background:linear-gradient(45deg,pink,blue);
+    background: linear-gradient(45deg,lightblue,pink);
     width:50%;
     margin-left: auto;
     margin-right: auto;

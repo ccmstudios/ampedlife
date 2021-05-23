@@ -14,17 +14,20 @@ class Servicecard extends React.Component {
   render() {
     return (
       <div id="servicescontainer">
-        <TabContainer>
+        <TabContainer id='tabs'>
           <Tabs
+            id="tabs"
             defaultActiveKey="birthplan"
             transition={false}
-            id="noanim-tab-example"
+            style = {{justifyContent: 'space-evenly'}}
           >
             <Tab
               id="servicetabs"
               eventKey="birthplan"
               title="Birthing Plan Only"
+            
             >
+              <br></br>
               <h1>Birth Planning Only - $120</h1>
               <br></br>
               <img src={Pregnant} alt="woman with belly" />
@@ -49,14 +52,15 @@ class Servicecard extends React.Component {
               </ul>
               <div id="booking">
                 <a
+                  style={{ textDecoration: "none" }}
                   target="_blank"
                   href="https://l.facebook.com/l.php?u=https%3A%2F%2Fcalendly.com%2Fampedlifedoulaservices%2F30min%3Ffbclid%3DIwAR3QciVOAp_YKsVro2lt2YAcQdya-zlu0eZlI3clIsIKFzocWAMUIgxDGes&h=AT1K337f5DERrE5T97XIZrrP-kIYAo2LdH8ytxTpy-DKrrRmCJtyvu_9WYAuDFrmPLEHGE5KvVRjylvGiGDUrphN8TPibRKzaw9_mO2uJD9WcGBtxfl-YkygtjkAmI21jUTRPcvis-28-45L9oIERw"
                 >
-                  <h1>Schedule Your Consultation Now!</h1>
+                  <h1>Schedule Your Consultation Today!</h1>
                 </a>
               </div>
             </Tab>
-            <Tab eventKey="birthdoula" title="Birthing Doula">
+            <Tab id="servicetabs" eventKey="birthdoula" title="Birthing Doula">
               <h1>Birthing Doula - $1100</h1>
               <br></br>
               <img src={Pregnant} alt="knocked up" />
@@ -89,10 +93,11 @@ class Servicecard extends React.Component {
               </ul>
               <div id="booking">
                 <a
+                  style={{ textDecoration: "none" }}
                   target="_blank"
                   href="https://l.facebook.com/l.php?u=https%3A%2F%2Fcalendly.com%2Fampedlifedoulaservices%2F30min%3Ffbclid%3DIwAR3QciVOAp_YKsVro2lt2YAcQdya-zlu0eZlI3clIsIKFzocWAMUIgxDGes&h=AT1K337f5DERrE5T97XIZrrP-kIYAo2LdH8ytxTpy-DKrrRmCJtyvu_9WYAuDFrmPLEHGE5KvVRjylvGiGDUrphN8TPibRKzaw9_mO2uJD9WcGBtxfl-YkygtjkAmI21jUTRPcvis-28-45L9oIERw"
                 >
-                  <h1>Schedule Your Consultation Now!</h1>
+                  <h1>Schedule Your Consultation Today!</h1>
                 </a>
               </div>
             </Tab>
@@ -141,10 +146,11 @@ class Servicecard extends React.Component {
               </ul>
               <div id="booking">
                 <a
+                  style={{ textDecoration: "none" }}
                   target="_blank"
                   href="https://l.facebook.com/l.php?u=https%3A%2F%2Fcalendly.com%2Fampedlifedoulaservices%2F30min%3Ffbclid%3DIwAR3QciVOAp_YKsVro2lt2YAcQdya-zlu0eZlI3clIsIKFzocWAMUIgxDGes&h=AT1K337f5DERrE5T97XIZrrP-kIYAo2LdH8ytxTpy-DKrrRmCJtyvu_9WYAuDFrmPLEHGE5KvVRjylvGiGDUrphN8TPibRKzaw9_mO2uJD9WcGBtxfl-YkygtjkAmI21jUTRPcvis-28-45L9oIERw"
                 >
-                  <h1>Schedule Your Consultation Now!</h1>
+                  <h1>Schedule Your Consultation Today!</h1>
                 </a>
               </div>
             </Tab>
@@ -176,10 +182,11 @@ class Servicecard extends React.Component {
               </ul>
               <div id="booking">
                 <a
+                  style={{ textDecoration: "none" }}
                   target="_blank"
                   href="https://l.facebook.com/l.php?u=https%3A%2F%2Fcalendly.com%2Fampedlifedoulaservices%2F30min%3Ffbclid%3DIwAR3QciVOAp_YKsVro2lt2YAcQdya-zlu0eZlI3clIsIKFzocWAMUIgxDGes&h=AT1K337f5DERrE5T97XIZrrP-kIYAo2LdH8ytxTpy-DKrrRmCJtyvu_9WYAuDFrmPLEHGE5KvVRjylvGiGDUrphN8TPibRKzaw9_mO2uJD9WcGBtxfl-YkygtjkAmI21jUTRPcvis-28-45L9oIERw"
                 >
-                  <h1>Schedule Your Consultation Now!</h1>
+                  <h1>Schedule Your Consultation Today!</h1>
                 </a>
               </div>
             </Tab>
@@ -207,10 +214,11 @@ class Servicecard extends React.Component {
               </ul>
               <div id="booking">
                 <a
+                  style={{ textDecoration: "none" }}
                   target="_blank"
                   href="https://l.facebook.com/l.php?u=https%3A%2F%2Fcalendly.com%2Fampedlifedoulaservices%2F30min%3Ffbclid%3DIwAR3QciVOAp_YKsVro2lt2YAcQdya-zlu0eZlI3clIsIKFzocWAMUIgxDGes&h=AT1K337f5DERrE5T97XIZrrP-kIYAo2LdH8ytxTpy-DKrrRmCJtyvu_9WYAuDFrmPLEHGE5KvVRjylvGiGDUrphN8TPibRKzaw9_mO2uJD9WcGBtxfl-YkygtjkAmI21jUTRPcvis-28-45L9oIERw"
                 >
-                  <h1>Schedule Your Consultation Now!</h1>
+                  <h1>Schedule Your Consultation Today!</h1>
                 </a>
               </div>
             </Tab>
@@ -224,7 +232,7 @@ class Servicecard extends React.Component {
                 You may be restricted on room or you want a more intimate
                 setting with just you and your birthing partner. Virtual support
                 allows me to support your birth no matter your location. I can
-                use my tools and knowledge to help you prepare for your birth
+                use my tools and kTodayledge to help you prepare for your birth
                 and help your partner support your needs.{" "}
               </p>
               <h3>Service Includes</h3>
@@ -259,10 +267,11 @@ class Servicecard extends React.Component {
               </ul>
               <div id="booking">
                 <a
+                  style={{ textDecoration: "none" }}
                   target="_blank"
                   href="https://l.facebook.com/l.php?u=https%3A%2F%2Fcalendly.com%2Fampedlifedoulaservices%2F30min%3Ffbclid%3DIwAR3QciVOAp_YKsVro2lt2YAcQdya-zlu0eZlI3clIsIKFzocWAMUIgxDGes&h=AT1K337f5DERrE5T97XIZrrP-kIYAo2LdH8ytxTpy-DKrrRmCJtyvu_9WYAuDFrmPLEHGE5KvVRjylvGiGDUrphN8TPibRKzaw9_mO2uJD9WcGBtxfl-YkygtjkAmI21jUTRPcvis-28-45L9oIERw"
                 >
-                  <h1>Schedule Your Consultation Now!</h1>
+                  <h1>Schedule Your Consultation Today!</h1>
                 </a>
               </div>
             </Tab>

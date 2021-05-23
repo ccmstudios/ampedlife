@@ -3,13 +3,14 @@ import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 import Col from 'react-bootstrap/Col'
 import Babysmile from '../assets/images/babysmile.jpg'
+import Sleepy from '../assets/images/sleepy.jpg'
+import Couple from '../assets/images/couple.jpg'
 class Contact extends React.Component{
     render(){
         return(
             <div>
 <h1>Contact me for your I would be honored to be a part of your journey.  I love what I (do)ula! </h1>
 <div id = 'form'> 
-<img id = 'babysmile'src = {Babysmile} alt = 'baby smiling' />
 <Form id='contactform'>
   <Form.Row>
     <Form.Group as={Col} controlId="formGridEmail">
@@ -61,6 +62,12 @@ class Contact extends React.Component{
     Submit
   </Button>
 </Form>
+</div>
+<div id='contactpics'>
+<img id = 'babysmile'src = {Babysmile} alt = 'baby smiling' />
+<img id = 'babysmile'src = {Couple} alt = 'baby family' />
+<img id = 'babysmile'src = {Sleepy} alt = 'baby sleep' />
+
 </div>
             </div>
         )

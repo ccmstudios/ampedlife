@@ -12,26 +12,26 @@ class Navbar extends React.Component{
             <div>
 <nav>
                  <ul id='navbar'>
-                     <Link to= '/'>
+                     <Link style ={{textDecoration: 'none'}} to= '/'>
                 <p><li>Home<li/>
                      </li></p></Link>
-            <Link to='/about'>
+            <Link style ={{textDecoration: 'none'}} to='/about'>
                 <p><li>About</li></p>
             </Link>
-            <Link to='/services'>
+            <Link style ={{textDecoration: 'none'}} to='/services'>
                 <p><li>Services</li></p>
             </Link>
 <Link to='/'>
 
             <img style ={{zindex:'999'}} src ={Logo} alt ='amped life logo'className ='logo-transparent'/>
 </Link>
-            <Link to='/blog'>
+            <Link style ={{textDecoration: 'none'}} to='/blog'>
                 <p><li>Blog</li></p>
             </Link>
-            <Link to='/clientportal'>
+            <Link style ={{textDecoration: 'none'}} to='/clientportal'>
                 <p><li>Client Portal</li></p>
             </Link>
-            <Link to='/contact'>
+            <Link style ={{textDecoration: 'none'}} to='/contact'>
                 <p><li>Contact</li></p>
             </Link>
 
