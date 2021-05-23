@@ -3,6 +3,7 @@ import Pregnant from "../assets/images/pregnant.jpg";
 import ServicesNav from "../components/servicesnav";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
+import Servicecard from "../components/servicecards";
 
 class Services extends React.Component {
   render() {
@@ -10,12 +11,13 @@ class Services extends React.Component {
       <div id="services">
         <h1>Our Services</h1>
         <ServicesNav />
-        <Row id="servicerows">
+        <Servicecard/>
+        {/* <Row id="servicerows">
           <Col sm={8}>
             <div id="servicesection">
               <div id="servicesubsection">
                 <div id="servicetitle">
-                  <h1 id="birthplanning">Birth Planning Only $120</h1>
+                  <h1 id="birthplanning">Birth Planning Only - $120</h1>
                   <br></br>
                   <br></br>
                   <h6 small class="text-muted">
@@ -273,9 +275,9 @@ class Services extends React.Component {
               </div>
             </div>
           </Col>
-        </Row>
+        </Row> */}
         <hr></hr>
-        <div id="servicelist">
+        {/* <div id="servicelist">
           <h3>In Person Services</h3>
           <ul>
             <li>Birth and Labor Doula $900</li>
@@ -322,10 +324,8 @@ class Services extends React.Component {
             keepsakes for your baby Provide individualised resources to support
             you on your journey Virtual services Support focusing
           </p>
-          {/* <div id="testbutton">
-            <h1>Test button</h1>
-          </div> */}
-        </div>
+  
+        </div> */}
       </div>
     );
   }

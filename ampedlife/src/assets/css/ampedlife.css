@@ -220,8 +220,7 @@ justify-content: center;}
 /* Services Page start */
 #services{
     display: inline;
-    padding: 5
-    0px;
+    padding:300px;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -248,8 +247,8 @@ justify-content: center;}
 
 #services li{
     padding: 20px;
-    color: white;
-    text-shadow: 1px 1px black;
+    color: black;
+    text-shadow: 1px 1px gray;
 }
 
 #services li:hover{
@@ -359,6 +358,46 @@ background-color: plum;
 
 #servicebutton a{
     color: white;
+}
+
+#servicescontainer{
+background: linear-gradient(45deg,lightblue,pink);
+width: 70%;
+/* display: flex; */
+justify-content: center;
+margin-left: auto;
+margin-right: auto;}
+
+#servicescontainer img{
+    width: 350px;
+}
+
+#servicescontainer p{
+    width: 50%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#dropdowndiv{
+    background: linear-gradient(45deg,pink,lightblue);
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: fit-content;
+}
+
+#dropdowndivp{
+    width: 60%;
+    margin-left: left;
+    margin-right: auto;
+    width: fit-content;
+}
+
+#servicetabs{
+    height: 1800px;
 }
 /* Servicds Page finish */
 
