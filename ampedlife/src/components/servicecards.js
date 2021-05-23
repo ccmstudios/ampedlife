@@ -2,12 +2,7 @@ import React from "react";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 import TabContainer from "react-bootstrap/TabContainer";
-import Dropdown from "react-bootstrap/Dropdown";
-import NavItem from "react-bootstrap/NavItem";
-import NavLink from "react-bootstrap/NavLink";
 import Pregnant from "../assets/images/pregnant.jpg";
-import DropdownButton from "react-bootstrap/DropdownButton";
-import { Link } from "react-router-dom";
 import Rainbow from "../assets/images/rainbow.jpg";
 
 class Servicecard extends React.Component {
