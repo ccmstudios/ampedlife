@@ -4,18 +4,16 @@ import Babypic1 from "../assets/images/baby.jpg";
 import InstagramEmbed from "react-instagram-embed";
 import Lexi from "../assets/images/lexi.jpg";
 import {Link} from 'react-router-dom'
+import Card from 'react-bootstrap/Card'
 
 class Home extends React.Component {
   render() {
     return (
       <div>
         <Jumbotron />
-        <h1 id="welcomeintro">Congratulations on your New Journey!</h1>
 
         <hr></hr>
         <div id='homemain'>
-
-        <img src={Lexi} id="lexi" alt="babylexi" />
         <p>
           The pregnancy journey can be a beautiful yet life altering time for
           everyone involved. As your doula, I am here to help support you and
@@ -26,13 +24,23 @@ class Home extends React.Component {
           discuss your needs and how I can help you reach your birth goals.
           Click here to schedule your free consultation today!{" "}
         </p>
-        <div id="chat">
+
+        <Card className="bg-dark text-white" id='homecard'> 
+  <Card.Img src={Lexi} alt="baby lexi" />
+  <Card.ImgOverlay>
+    <Card.Text>
+    <div id="chatmain">
               <Link to="/services">
                 <a href="/services">
                   <h1>Let's Chat!</h1>
                 </a>
               </Link>
               </div>
+    </Card.Text>
+  </Card.ImgOverlay>
+</Card>
+      
+  
         </div>
         <br></br>
         <div id="homeblog">
