@@ -2,11 +2,12 @@ import React from "react";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 import TabContainer from "react-bootstrap/TabContainer";
-import Pregnant from "../assets/images/pregnant.jpg";
+import Birth from "../assets/images/birth.jpg";
 import Rainbow from "../assets/images/rainbow.jpg";
 import Virtual from '../assets/images/virtual.jpg';
 import Bereavement from '../assets/images/bereavement.jpg';
 import Postpartum from '../assets/images/postpartum.jpg';
+import Doula from '../assets/images/Doula.jpg'
 
 class Servicecard extends React.Component {
   render() {
@@ -28,7 +29,7 @@ class Servicecard extends React.Component {
               <br></br>
               <h1>Birth Planning Only - $120</h1>
               <br></br>
-              <img src={Pregnant} alt="woman with belly" />
+              <img src={Birth} alt="woman with belly" />
               <br></br>
               <br></br>
               <p>
@@ -61,7 +62,7 @@ class Servicecard extends React.Component {
             <Tab id="servicetabs" eventKey="birthdoula" title="Birthing Doula">
               <h1>Birthing Doula - $1100</h1>
               <br></br>
-              <img src={Pregnant} alt="knocked up" />
+              <img src={Doula} alt="knocked up" />
               <br></br>
               <br></br>
               <p>
