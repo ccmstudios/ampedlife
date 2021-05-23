@@ -23,7 +23,7 @@ class Navbar extends React.Component{
             </Link>
 <Link to='/'>
 
-            <img src ={Logo} alt ='amped life logo'className ='logo-transparent'/>
+            <img style ={{zindex:'999'}} src ={Logo} alt ='amped life logo'className ='logo-transparent'/>
 </Link>
             <Link to='/blog'>
                 <p><li>Blog</li></p>
@@ -37,7 +37,6 @@ class Navbar extends React.Component{
 
             </ul>
             </nav>
-
             </div>
         )
     }
