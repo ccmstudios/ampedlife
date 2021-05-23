@@ -48,7 +48,7 @@ class Servicecard extends React.Component {
               <div id="booking">
                 <a
                   style={{ textDecoration: "none" }}
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                   href="https://l.facebook.com/l.php?u=https%3A%2F%2Fcalendly.com%2Fampedlifedoulaservices%2F30min%3Ffbclid%3DIwAR3QciVOAp_YKsVro2lt2YAcQdya-zlu0eZlI3clIsIKFzocWAMUIgxDGes&h=AT1K337f5DERrE5T97XIZrrP-kIYAo2LdH8ytxTpy-DKrrRmCJtyvu_9WYAuDFrmPLEHGE5KvVRjylvGiGDUrphN8TPibRKzaw9_mO2uJD9WcGBtxfl-YkygtjkAmI21jUTRPcvis-28-45L9oIERw"
                 >
                   <h1>Schedule Your Consultation Today!</h1>
@@ -89,7 +89,7 @@ class Servicecard extends React.Component {
               <div id="booking">
                 <a
                   style={{ textDecoration: "none" }}
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                   href="https://l.facebook.com/l.php?u=https%3A%2F%2Fcalendly.com%2Fampedlifedoulaservices%2F30min%3Ffbclid%3DIwAR3QciVOAp_YKsVro2lt2YAcQdya-zlu0eZlI3clIsIKFzocWAMUIgxDGes&h=AT1K337f5DERrE5T97XIZrrP-kIYAo2LdH8ytxTpy-DKrrRmCJtyvu_9WYAuDFrmPLEHGE5KvVRjylvGiGDUrphN8TPibRKzaw9_mO2uJD9WcGBtxfl-YkygtjkAmI21jUTRPcvis-28-45L9oIERw"
                 >
                   <h1>Schedule Your Consultation Today!</h1>
@@ -142,7 +142,7 @@ class Servicecard extends React.Component {
               <div id="booking">
                 <a
                   style={{ textDecoration: "none" }}
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                   href="https://l.facebook.com/l.php?u=https%3A%2F%2Fcalendly.com%2Fampedlifedoulaservices%2F30min%3Ffbclid%3DIwAR3QciVOAp_YKsVro2lt2YAcQdya-zlu0eZlI3clIsIKFzocWAMUIgxDGes&h=AT1K337f5DERrE5T97XIZrrP-kIYAo2LdH8ytxTpy-DKrrRmCJtyvu_9WYAuDFrmPLEHGE5KvVRjylvGiGDUrphN8TPibRKzaw9_mO2uJD9WcGBtxfl-YkygtjkAmI21jUTRPcvis-28-45L9oIERw"
                 >
                   <h1>Schedule Your Consultation Today!</h1>
@@ -178,7 +178,7 @@ class Servicecard extends React.Component {
               <div id="booking">
                 <a
                   style={{ textDecoration: "none" }}
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                   href="https://l.facebook.com/l.php?u=https%3A%2F%2Fcalendly.com%2Fampedlifedoulaservices%2F30min%3Ffbclid%3DIwAR3QciVOAp_YKsVro2lt2YAcQdya-zlu0eZlI3clIsIKFzocWAMUIgxDGes&h=AT1K337f5DERrE5T97XIZrrP-kIYAo2LdH8ytxTpy-DKrrRmCJtyvu_9WYAuDFrmPLEHGE5KvVRjylvGiGDUrphN8TPibRKzaw9_mO2uJD9WcGBtxfl-YkygtjkAmI21jUTRPcvis-28-45L9oIERw"
                 >
                   <h1>Schedule Your Consultation Today!</h1>
@@ -210,7 +210,7 @@ class Servicecard extends React.Component {
               <div id="booking">
                 <a
                   style={{ textDecoration: "none" }}
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                   href="https://l.facebook.com/l.php?u=https%3A%2F%2Fcalendly.com%2Fampedlifedoulaservices%2F30min%3Ffbclid%3DIwAR3QciVOAp_YKsVro2lt2YAcQdya-zlu0eZlI3clIsIKFzocWAMUIgxDGes&h=AT1K337f5DERrE5T97XIZrrP-kIYAo2LdH8ytxTpy-DKrrRmCJtyvu_9WYAuDFrmPLEHGE5KvVRjylvGiGDUrphN8TPibRKzaw9_mO2uJD9WcGBtxfl-YkygtjkAmI21jUTRPcvis-28-45L9oIERw"
                 >
                   <h1>Schedule Your Consultation Today!</h1>
@@ -263,7 +263,7 @@ class Servicecard extends React.Component {
               <div id="booking">
                 <a
                   style={{ textDecoration: "none" }}
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                   href="https://l.facebook.com/l.php?u=https%3A%2F%2Fcalendly.com%2Fampedlifedoulaservices%2F30min%3Ffbclid%3DIwAR3QciVOAp_YKsVro2lt2YAcQdya-zlu0eZlI3clIsIKFzocWAMUIgxDGes&h=AT1K337f5DERrE5T97XIZrrP-kIYAo2LdH8ytxTpy-DKrrRmCJtyvu_9WYAuDFrmPLEHGE5KvVRjylvGiGDUrphN8TPibRKzaw9_mO2uJD9WcGBtxfl-YkygtjkAmI21jUTRPcvis-28-45L9oIERw"
                 >
                   <h1>Schedule Your Consultation Today!</h1>
