@@ -33,16 +33,7 @@ class About extends React.Component {
               honor to support your birthing needs.
               <br></br>
               <br></br>
-              <h2>What is a Doula?</h2>
               
-                A doula is an individual who provides non-medical support in the
-                form of physical and emotional support during your pregnancy,
-                birth and postpartum journey. By assisting you in gathering
-                information required to fit your needs, I help you execute your
-                desired pregnancy preference. I also help promote healing and
-                remove anxiety on your pregnancy journey.
-              <br></br>
-              <br></br>
               <strong>
                 My mission is to provide the best pregnancy, postpartum, and
                 bereavement support to families virtually, in Charlotte and the

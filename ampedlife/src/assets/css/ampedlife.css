@@ -48,8 +48,7 @@ background-size: cover;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-width: 75%;
-filter: hue-rotate(240deg) url('#purple-warm');
+width: 35%;
 }
 
 
@@ -58,6 +57,12 @@ filter: hue-rotate(240deg) url('#purple-warm');
     justify-content: center;
     text-align: center;
     background-color: linear-gradient(45deg,purple, pink);
+
+}
+
+#homemain h1{
+    font-family: 'Vidaloka', serif;
+    font-size: 78px;
 
 }
 
@@ -114,6 +119,7 @@ width: 50%;
 display: flex;
 margin-left: auto;
 margin-right: auto;
+font-size: 24px;
 }
 
 #homecard{
@@ -188,7 +194,8 @@ box-shadow:          3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 
 #homeblog{
     display: flex;
     background: linear-gradient(70deg,lightblue,pink);
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
     padding: 20px;
 }
 
@@ -198,6 +205,13 @@ box-shadow:          3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 
     border-style: solid;
     border-width: 10px;
     font-size: 24px;
+}
+
+#igfeed{
+    height: 500px;
+    position: relative;
+    top: 150px;
+    right: 175px;
 }
 /* Home page finish */
 
@@ -486,39 +500,63 @@ padding: 15px;
 
 /* Contact Page start */
 #form{
-    padding: 100px;
+    padding: 10px;
     width: 100%;
     display: flex;
-margin-right: auto;
 height: fit-content;
+margin-left: auto;
 }
 
 #babysmile{
-    position: relative;
+    /* position: relative;
     bottom: 700px;
-    right:300px;
+    right:300px; */
     width: 20%;
     border-radius: 5%;
     display: flex;
-    margin-left: auto;
+    /* margin-left: auto; */
     justify-content: space-around;
 }
 
 #contactpics{
-    display: inline-block;
+    padding: 20px;
+    display: inline;
     justify-content: space-around;
     align-items: center;
 }
-#contactform{
-    width: 500px;
+
+#form img{
     padding: 10px;
+    width: 60%;
+    position: relative;
+    left: 150px;
+}
+#contactform{
+    width: 1200px;
+    padding: 10px;
+    position: relative;
+    right: 200px;
+    top: 25px;
     background: linear-gradient(45deg,lightblue,pink);
 
     border-radius: 5%;
     -webkit-box-shadow:  3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
     -moz-box-shadow:     3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
     box-shadow:          3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-    
+
+}
+
+#formGridCheckbox{
+display: flex;
+
+}
+
+.form-control{
+
+}
+
+#textbox{
+    height: 200px;
 }
 /* contact Page finish */
 
@@ -532,7 +570,7 @@ height: fit-content;
 #test{
     display: flex;
     justify-content: center;
-    color: white;
+    color: #800020;
     font-size: 78px;
     text-shadow: 2px 2px black;
     align-items: center;

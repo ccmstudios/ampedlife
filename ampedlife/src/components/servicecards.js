@@ -176,7 +176,8 @@ class Servicecard extends React.Component {
               </div>
             </Tab>
             <Tab eventKey="postpartum" title="Postpartum">
-              <h1> Postpartum - Starting at $25 an Hour </h1>
+              <h1> Postpartum - $400 (12 hours of support)  </h1>
+              <h4> $25 per additional hour of support</h4>
               <br></br>
               <h4>**In-person or Virtual assistance available</h4>
               <br></br>
@@ -203,8 +204,7 @@ class Servicecard extends React.Component {
                 </li>
                 <li>Light meal preparation.</li>
                 <li>
-                  Caring for you newborn allowing you to be hands free to take
-                  care of personal needs.
+                  Providing education and information catered to your Newborn's needs
                 </li>
                 <li>
                   Assisting with breast- and bottle-feeding support of the
@@ -244,7 +244,8 @@ class Servicecard extends React.Component {
               <h3>Service Includes</h3>
               <ul>
                 <li>Attending the birth.</li>
-                <li>Physical and Emotional support</li>
+                <li>Provide physical and emotional support</li>
+                <li>Hold Space for the Family</li>
                 <li>Follow up support, via email, text, and video chat</li>
                 <li>Assistance in creating keepsakes for your baby.</li>
                 <li>
