@@ -4,6 +4,9 @@ import Tabs from "react-bootstrap/Tabs";
 import TabContainer from "react-bootstrap/TabContainer";
 import Pregnant from "../assets/images/pregnant.jpg";
 import Rainbow from "../assets/images/rainbow.jpg";
+import Virtual from '../assets/images/virtual.jpg';
+import Bereavement from '../assets/images/bereavement.jpg';
+import Postpartum from '../assets/images/postpartum.jpg';
 
 class Servicecard extends React.Component {
   render() {
@@ -152,7 +155,7 @@ class Servicecard extends React.Component {
             <Tab eventKey="postpartum" title="Postpartum">
               <h1> Postpartum - Starting at $25 an Hour </h1>
               <br></br>
-              <img src={Pregnant} alt="knocked up" />
+              <img src={Postpartum} alt="knocked up" />
               <br></br>
               <br></br>
               There are always adjustments required when bringing a new baby
@@ -188,7 +191,7 @@ class Servicecard extends React.Component {
             <Tab eventKey="bereavement" title="Bereavement">
               <h1>Bereavement - Complimentary Service</h1>
               <br></br>
-              <img src={Pregnant} alt="knocked up" />
+              <img src={Bereavement} alt="knocked up" />
               <br></br>
               <br></br>
               Holding space is a term that means focusing on someone as they are
@@ -220,7 +223,7 @@ class Servicecard extends React.Component {
             <Tab eventKey="virtual" title="Virtual Doula">
               <h1>Virtual Services - $500</h1>
               <br></br>
-              <img src={Pregnant} alt="coming baby" />
+              <img src={Virtual} alt="coming baby" />
               <br></br>
               <br></br>
               <p>
