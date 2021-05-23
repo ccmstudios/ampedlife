@@ -29,6 +29,9 @@ class Servicecard extends React.Component {
               <br></br>
               <h1>Birth Planning Only - $120</h1>
               <br></br>
+              <h4>**In-person or Virtual assistance available</h4>
+              <br></br>
+              <div id='servicemain'>
               <img src={Birth} alt="woman with belly" />
               <br></br>
               <br></br>
@@ -38,6 +41,9 @@ class Servicecard extends React.Component {
                 in-person support. I will discuss the process and the options
                 with you to help meet your needs during labor and birth.{" "}
               </p>
+
+              </div>
+              <br></br>
               <h3>Service Includes</h3>
               <ul>
                 <li>
@@ -62,6 +68,9 @@ class Servicecard extends React.Component {
             <Tab id="servicetabs" eventKey="birthdoula" title="Birthing Doula">
               <h1>Birthing Doula - $1100</h1>
               <br></br>
+              <h4>**In-person or Virtual assistance available</h4>
+              <br></br>
+              <div id='servicemain'>
               <img src={Doula} alt="knocked up" />
               <br></br>
               <br></br>
@@ -71,6 +80,9 @@ class Servicecard extends React.Component {
                 you and your partner using breathing techniques, labor
                 positions, and other comfort measures.{" "}
               </p>
+
+              </div>
+              <br></br>
               <h3>Service Includes</h3>
               <ul>
                 <li>
@@ -103,14 +115,24 @@ class Servicecard extends React.Component {
             <Tab eventKey="afterLoss" title="Pregnancy After Loss">
               <h1>Pregnancy After Loss - $1100</h1>
               <br></br>
+              <h4>**In-person or Virtual assistance available</h4>
+              <br></br>
+              <div id='servicemain'>
               <img src={Rainbow} alt="rainbow tutu" />
               <br></br>
               <br></br>
+              <p>
               Navigating pregnancy after loss can be difficult physically and
               emotionally. I walk alongside you through the journey and provide
               the emotional and physical support guiding you through your
-              pregnancy. My goal is to help make the experience as positive as
-              possible. <h3>Service Includes</h3>
+              pregnancy. My goal is to help make the experience as positive as possible. 
+
+              </p>
+
+              </div>
+              
+              <br></br>
+              <h3>Service Includes</h3>
               <ul>
                 <li>
                   4 prenatal visits to prepare your birth goals as well as
@@ -156,14 +178,24 @@ class Servicecard extends React.Component {
             <Tab eventKey="postpartum" title="Postpartum">
               <h1> Postpartum - Starting at $25 an Hour </h1>
               <br></br>
+              <h4>**In-person or Virtual assistance available</h4>
+              <br></br>
+              <div id='servicemain'>
+
               <img src={Postpartum} alt="knocked up" />
               <br></br>
               <br></br>
+              <p>
               There are always adjustments required when bringing a new baby
               home. With me as your postpartum doula, I assist your family unit
               as you transition into your life with a newborn. Your focus and
               energy can then be placed more on your recovery and care for your
-              newborn. <h3>Service Includes</h3>
+              newborn. 
+
+              </p>
+              </div>
+              <br></br>
+              <h3>Service Includes</h3>
               <ul>
                 <li>
                   Light cleaning and organizing to help keep clutter at a
@@ -192,14 +224,23 @@ class Servicecard extends React.Component {
             <Tab eventKey="bereavement" title="Bereavement">
               <h1>Bereavement - Complimentary Service</h1>
               <br></br>
+              <h4>**In-person or Virtual assistance available</h4>
+              <br></br>
+              <div id='servicemain'>
               <img src={Bereavement} alt="knocked up" />
               <br></br>
               <br></br>
+              <p>
               Holding space is a term that means focusing on someone as they are
               feeling their emotions. I create a safe space to allow expression
               of emotions without judgement. As your doula, I will support
               preparing you for what you can expect as you birth your baby
               through stillbirth, elective termination and miscarriage.{" "}
+
+              </p>
+
+              </div>
+              <br></br>
               <h3>Service Includes</h3>
               <ul>
                 <li>Attending the birth.</li>
@@ -224,6 +265,8 @@ class Servicecard extends React.Component {
             <Tab eventKey="virtual" title="Virtual Doula">
               <h1>Virtual Services - $500</h1>
               <br></br>
+              <div id='servicemain'>
+
               <img src={Virtual} alt="coming baby" />
               <br></br>
               <br></br>
@@ -234,6 +277,8 @@ class Servicecard extends React.Component {
                 use my tools and kTodayledge to help you prepare for your birth
                 and help your partner support your needs.{" "}
               </p>
+              </div>
+              <br></br>
               <h3>Service Includes</h3>
               <ul>
                 <li>

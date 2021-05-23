@@ -304,6 +304,16 @@ justify-content: center;}
     font-size: smaller;
 text-align: left;
 }
+#servicemain{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#servicemain p{
+    font-size: 30px;
+    text-align: left;
+    justify-content: left;
+}
 
 #services li:hover{
     transform: scale(1.1);
@@ -426,16 +436,31 @@ padding: 15px;
 }
 
 #servicescontainer img{
-    width: 350px;
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
 }
 
 #servicescontainer p{
     width: 50%;
-    text-align: center;
+    text-align: left;
     margin-right: auto;
     margin-left: auto;
 }
 
+#servicescontainer h3{
+    text-align: left;
+    text-decoration: underline;
+}
+#servicescontainer li{
+    margin-left: 50px;
+    font-size: 22px;
+}
+
+#servicescontainer h4{
+    font-size: 16px;
+    font-weight: bold;
+}
 #dropdowndiv{
     background: linear-gradient(45deg,pink,lightblue);
     justify-content: center;
