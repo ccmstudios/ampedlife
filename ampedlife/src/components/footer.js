@@ -1,11 +1,12 @@
 import React from "react";
-import Logo from '../assets/images/logo.png'
+import Logo from "../assets/images/logo.png";
+import Social from "./social";
 
 class Footer extends React.Component {
   render() {
     return (
       <div id="footer">
-        {/* social media goes here */}
+        <Social />
         <br></br>
         <br></br>
         <h4>
@@ -17,14 +18,12 @@ class Footer extends React.Component {
         <h3>
           <strong>Phone:</strong>
           (704) 443-8343
-
         </h3>
         <h3>
           <strong>Email:</strong>
           Amexia.porterfield@aldoulaservices.com
-
         </h3>
-        <img src = {Logo} alt = 'footer amped life'/>
+        <img src={Logo} alt="footer amped life" />
       </div>
     );
   }

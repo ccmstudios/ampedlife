@@ -609,3 +609,17 @@ padding: 10px;
 #footer h4{
     font-size: smaller;
 }
+
+#social h3{
+font-size: 16px;
+}
+
+#social ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+#social img{
+    width: 60px;
+}
