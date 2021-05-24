@@ -9,6 +9,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Navbar from './components/navbar';
 import './assets/css/ampedlife.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from './components/footer'
 
 
 
@@ -30,6 +31,7 @@ function App() {
   </Switch>
 </div>
       </Router>
+      <Footer/>
     </div>
   );
 }

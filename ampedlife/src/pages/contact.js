@@ -12,7 +12,7 @@ class Contact extends React.Component {
   render() {
     return (
       <div>
-        <h4>
+        <h4 id ='contactwelcome'>
           Let's Discuss your family's goals and needs. I look forward to
           speaking with you!
         </h4>
@@ -24,22 +24,11 @@ class Contact extends React.Component {
           </div>
           <Form id="contactform">
             <div class="form-row">
-              <Form.Group>
-                <Form.Label>Name</Form.Label>
-                <div className="col-5">
-                  <input
-                    type="text"
-                    className="form-control"
-                    placeholder="First Name"
-                  />
-                </div>
-                <div className="col-5">
-                  <input
-                    type="text"
-                    className="form-control"
-                    placeholder="Last Name"
-                  />
-                </div>
+                <Form.Group as={Col} controlId="formGridPassword">
+                <Form.Label>First Name</Form.Label>
+                <Form.Control type="input" placeholder="First Name" />
+                <Form.Label>Last Name</Form.Label>
+                <Form.Control type="input" placeholder="Last Name" />
               </Form.Group>
             </div>
 
@@ -59,18 +48,10 @@ class Contact extends React.Component {
 
             <Form.Row>
             <Form.Group inline controlId="formGridAddress1">
-              <Form.Label inline>Month</Form.Label>
-              <Form.Control placeholder="MM" />
-            {/* </Form.Group> */}
+              <Form.Label inline>Due Date</Form.Label>
+              <Form.Control placeholder="MM/DD/YYYY" />
 
-            {/* <Form.Group controlId="formGridAddress2"> */}
-              <Form.Label>Day</Form.Label>
-              <Form.Control placeholder="DD" />
-            {/* </Form.Group> */}
-
-              {/* <Form.Group as={Col} controlId="YYYY"> */}
-                <Form.Label>Year</Form.Label>
-                <Form.Control placeholder="YYYY" />
+          
               </Form.Group>
             </Form.Row>
             <h4> Check all that apply!</h4>
