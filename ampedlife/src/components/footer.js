@@ -6,9 +6,9 @@ class Footer extends React.Component {
   render() {
     return (
       <div id="footer">
-        <Social />
         <br></br>
         <br></br>
+        <h3>Areas Served</h3>
         <h4>
           Servicing the Charlotte Metro Area, Concord, Gastonia, Monroe, Rock
           Hill, Ballentyne, University, Uptown, Matthews, NODA, Statesville,
@@ -23,6 +23,8 @@ class Footer extends React.Component {
           <strong>Email:</strong>
           Amexia.porterfield@aldoulaservices.com
         </h3>
+        <br></br>
+        <Social />
         <img src={Logo} alt="footer amped life" />
       </div>
     );
