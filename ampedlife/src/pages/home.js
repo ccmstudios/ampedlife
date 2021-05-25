@@ -1,7 +1,6 @@
 import React from "react";
 import Jumbotron from "../components/jumbotron";
 import Lexi from "../assets/images/lexi.jpg";
-import { Link } from "react-router-dom";
 import Card from "react-bootstrap/Card";
 import Doulainfo from "../assets/images/doulainfo.png";
 
@@ -15,32 +14,42 @@ class Home extends React.Component {
         <div id="homemain">
           <h1>Welcome</h1>
           <p>
-            The pregnancy journey can be a beautiful yet life altering time for
+            The pregnancy journey can be a beautiful yet life-altering time for
             everyone involved. As your doula, I am here to help support you and
             your family. I provide unbiased support to help prepare you for the
             journey ahead. My goal as your doula is to aid in your knowledge,
             empower you, and make sure you have the tools you need to have the
             best pregnancy and postpartum experience possible. I would love to
             discuss your needs and how I can help you reach your birth goals.
-            Click here to schedule your free consultation today!{" "}
           </p>
-<br></br>
-<br></br>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://l.facebook.com/l.php?u=https%3A%2F%2Fcalendly.com%2Fampedlifedoulaservices%2F30min%3Ffbclid%3DIwAR3QciVOAp_YKsVro2lt2YAcQdya-zlu0eZlI3clIsIKFzocWAMUIgxDGes&h=AT1K337f5DERrE5T97XIZrrP-kIYAo2LdH8ytxTpy-DKrrRmCJtyvu_9WYAuDFrmPLEHGE5KvVRjylvGiGDUrphN8TPibRKzaw9_mO2uJD9WcGBtxfl-YkygtjkAmI21jUTRPcvis-28-45L9oIERw"
+          >
+            Click here to schedule your free consultation today!
+          </a>{" "}
+          <br></br>
+          <br></br>
           <Card className="bg-dark text-white" id="homecard">
             <Card.Img src={Lexi} alt="baby lexi" />
             <Card.ImgOverlay>
               <Card.Text>
                 <div id="chatmain">
-                  <Link to="/services">
-                    <a href="/services">
+                  
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://l.facebook.com/l.php?u=https%3A%2F%2Fcalendly.com%2Fampedlifedoulaservices%2F30min%3Ffbclid%3DIwAR3QciVOAp_YKsVro2lt2YAcQdya-zlu0eZlI3clIsIKFzocWAMUIgxDGes&h=AT1K337f5DERrE5T97XIZrrP-kIYAo2LdH8ytxTpy-DKrrRmCJtyvu_9WYAuDFrmPLEHGE5KvVRjylvGiGDUrphN8TPibRKzaw9_mO2uJD9WcGBtxfl-YkygtjkAmI21jUTRPcvis-28-45L9oIERw"
+                    >
                       <h1>Let's Chat!</h1>
                     </a>
-                  </Link>
+                
                 </div>
               </Card.Text>
             </Card.ImgOverlay>
           </Card>
-<br></br>
+          <br></br>
           <h1>What is a Doula?</h1>
           <br></br>
           <p>
@@ -54,8 +63,11 @@ class Home extends React.Component {
           <br></br>
           <h1>Why Hire a Doula?</h1>
           <br></br>
-          <img src = {Doulainfo} alt ='doula info' style ={{width:'600px', objectFit:"cover"}}/>
-
+          <img
+            src={Doulainfo}
+            alt="doula info"
+            style={{ width: "600px", objectFit: "cover" }}
+          />
         </div>
         <br></br>
         <div id="homeblog">
@@ -70,8 +82,8 @@ class Home extends React.Component {
           <div id="igfeed">
             <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
             <iframe
-              title="IG Feed"
-              src="//lightwidget.com/widgets/49f09e35e802521ea6c7bfaaf56b6382.html"
+            title= 'amped life doula'
+              src="//lightwidget.com/widgets/ac2a1a92bff152669b9b801ab5f3317f.html"
               scrolling="no"
               allowtransparency="true"
               class="lightwidget-widget"
@@ -84,7 +96,6 @@ class Home extends React.Component {
             ></iframe>
           </div>
         </div>
-
       </div>
     );
   }

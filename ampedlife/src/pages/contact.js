@@ -5,8 +5,7 @@ import Col from "react-bootstrap/Col";
 import Babysmile from "../assets/images/babysmile.jpg";
 import Sleepy from "../assets/images/sleepy.jpg";
 import Couple from "../assets/images/couple.jpg";
-import FormControl from "react-bootstrap/FormControl";
-import InputGroup from "react-bootstrap/InputGroup";
+
 
 class Contact extends React.Component {
   render() {
@@ -44,8 +43,6 @@ class Contact extends React.Component {
               </Form.Group>
             </Form.Row>
 
-            <h4> Estimated due date</h4>
-
             <Form.Row>
             <Form.Group inline controlId="formGridAddress1">
               <Form.Label inline>Due Date</Form.Label>
@@ -54,6 +51,8 @@ class Contact extends React.Component {
           
               </Form.Group>
             </Form.Row>
+            <br></br>
+            <p>What service(s) interest you?</p>
             <h4> Check all that apply!</h4>
             <Form.Group id="formGridCheckbox">
               <Form.Check type="checkbox" label="Birth Planning Only" />

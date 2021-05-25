@@ -83,7 +83,7 @@ width: 35%;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-background:linear-gradient(45deg,blue,pink);
+background:linear-gradient(45deg,lightblue,pink);
 width: fit-content;
 padding: 10px;
 border-color: black;
@@ -120,6 +120,10 @@ display: flex;
 margin-left: auto;
 margin-right: auto;
 font-size: 24px;
+}
+
+#homemain a{
+    font-size: 24px;
 }
 
 #homecard{
@@ -193,18 +197,20 @@ box-shadow:          3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 
 
 #homeblog{
     display: flex;
-    background: linear-gradient(70deg,lightblue,pink);
+    background-color: #bfb4dd;
     justify-content: space-evenly;
     align-items: center;
     padding: 20px;
+    color: white;
 }
 
 #homeblogbutton{
-    border: purple;
+    border: white;
     padding: 10px;
     border-style: solid;
     border-width: 10px;
     font-size: 24px;
+    color: white;
 }
 
 #igfeed{
@@ -532,7 +538,7 @@ font-size: 40px;
 
 #form img{
     padding: 10px;
-    width: 60%;
+    width: 50%;
     position: relative;
     left: 150px;
 }
@@ -548,6 +554,7 @@ font-size: 40px;
     -webkit-box-shadow:  3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
     -moz-box-shadow:     3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
     box-shadow:          3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    height: fit-content;
 
 }
 

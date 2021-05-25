@@ -13,7 +13,7 @@ class About extends React.Component {
             <p>
               I am Amexia Porterfield and I am a married mother of 3 amazing
               children and 1 angel baby. I decided to become a doula because of
-              my childbirth experiences and the difficult experiences of those I
+              my childbirth experiences and the difficult birth experiences of those I
               care about. I have experienced early miscarriages, an ectopic
               pregnancy, and 2 preterm births that resulted in one child having
               a NICU stay and a child that passed away in the second trimester.
