@@ -38,28 +38,28 @@ class Contact extends React.Component {
             <div class="form-row">
                 <Form.Group as={Col} controlId="formGridPassword">
                 <Form.Label>First Name</Form.Label>
-                <Form.Control type="name" placeholder="First Name" />
+                <Form.Control type="name" name='FirstName' placeholder="First Name" />
                 <Form.Label>Last Name</Form.Label>
-                <Form.Control type="name" placeholder="Last Name" />
+                <Form.Control type="name" name='LastName'placeholder="Last Name" />
               </Form.Group>
             </div>
 
             <Form.Row>
               <Form.Group as={Col} controlId="formGridEmail">
                 <Form.Label className="inline">Email</Form.Label>
-                <Form.Control type="email" placeholder="Enter email" />
+                <Form.Control type="email"name ='Email' placeholder="Enter email" />
               </Form.Group>
 
               <Form.Group as={Col} controlId="formGridPassword">
                 <Form.Label>Phone</Form.Label>
-                <Form.Control type="number" placeholder="(123)456-7890" />
+                <Form.Control type="number" name ='PhoneNumber' placeholder="(123)456-7890" />
               </Form.Group>
             </Form.Row>
 
             <Form.Row>
             <Form.Group inline controlId="formGridAddress1">
               <Form.Label inline>Due Date</Form.Label>
-              <Form.Control type='date' name ='date' placeholder="MM/DD/YYYY" />
+              <Form.Control type='date' name ='DueDate' placeholder="MM/DD/YYYY" />
 
           
               </Form.Group>
