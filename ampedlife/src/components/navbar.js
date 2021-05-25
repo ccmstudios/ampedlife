@@ -1,7 +1,6 @@
 import React from 'react'
-import {Link} from 'react-router-dom';
-import Logo from '../assets/images/logo.png'
-
+import Navigation from './navigation'
+import MobileNav from './mobileNav'
 
 
 
@@ -10,7 +9,9 @@ class Navbar extends React.Component{
         return(
 
             <div>
-<nav>
+                <Navigation/>
+                <MobileNav/>
+{/* <nav>
                  <ul id='navbar'>
                      <Link style ={{textDecoration: 'none'}} to= '/'>
                 <p><li>Home<li/>
@@ -36,7 +37,7 @@ class Navbar extends React.Component{
             </Link>
 
             </ul>
-            </nav>
+            </nav> */}
             </div>
         )
     }

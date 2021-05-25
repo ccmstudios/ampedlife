@@ -38,6 +38,10 @@ background-size: cover;
     position: relative;
     top: 90px;
 }
+
+#mobilenav{
+    display: none;
+}
 /* navbar finish */
 
 /* Home page start */
@@ -223,6 +227,11 @@ box-shadow:          3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 
     position: relative;
     top: 150px;
     right: 175px;
+
+}
+
+#doulainfo{
+    width: 600px;
 }
 /* Home page finish */
 
@@ -633,12 +642,141 @@ font-size: 16px;
 
 /* On screens that are 992px wide or less, go from four columns to two columns */
 @media screen and (max-width: 992px) {
-
+    #navigation{
+        display: none;
     }
-  
+    #mobilenav{
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    #mobilenav li{
+        font-size: smaller;
+    }
+#hamburger{
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+    display: none;
+}
+
+#servicemain{
+    display: flex;
+    justify-content: space-evenly;
+}
+#servicescontainer{
+    width: 100%;
+}
+
+#servicemain img{
+    width: 50%;
+}
+
+#servicescontainer img{
+    display: none;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#servicemain p{
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    bottom: 20px;
+}
+#navbar li{
+    font-size: 14px;
+}
+
+
+
+#navbar{
+    width:100%;
+}
+    }
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (min-width: 650px) {
+    #navigation{
+        display: none;
+    }
+    #mobilenav{
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    #mobilenav li{
+        font-size: smaller;
+    }
+#hamburger{
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+    display: none;
+}
+
+#contactpics{
+    display: none;
+}
+
+#servicemain{
+    display: flex;
+    justify-content: space-evenly;
+}
+#servicescontainer{
+    width: 100%;
+}
+
+#servicemain img{
+    width: 50%;
+}
+
+#servicescontainer img{
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#servicemain p{
+    text-align: left;
+    font-size: 24px;
+    position: relative;
+}
+#navbar li{
+    font-size: 18px;
+}
+
+#navbar{
+    width:100%;
+}
+#form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+
+}
+
+#contactform{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 0;
+}
+    }
   
   /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
+    #navbar img{
+        display: none;
+    }
+    #navbar li{
+        font-size: 20px;
+        top: 0;
+
+    }
     #chatmain{
        display: none;
     }
@@ -654,7 +792,7 @@ font-size: 16px;
 display: inline;   
 text-align: center;
 }
-  }
+  
 
   #abouttext{
       display: inline-block;
@@ -746,3 +884,15 @@ display: none;
   #footer h3{
       font-size: smaller;
   }
+
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+      #navbar li{
+          font-size: 15px;
+      }
+      #doulainfo{
+        width: 300px;
+    }
+  }
+
+}

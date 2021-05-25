@@ -64,9 +64,10 @@ class Home extends React.Component {
           <h1>Why Hire a Doula?</h1>
           <br></br>
           <img
+          id= 'doulainfo'
             src={Doulainfo}
             alt="doula info"
-            style={{ width: "600px", objectFit: "cover" }}
+            style={{ objectFit: "cover" }}
           />
         </div>
         <br></br>
