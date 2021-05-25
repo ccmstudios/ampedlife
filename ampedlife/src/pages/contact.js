@@ -5,10 +5,23 @@ import Col from "react-bootstrap/Col";
 import Babysmile from "../assets/images/babysmile.jpg";
 import Sleepy from "../assets/images/sleepy.jpg";
 import Couple from "../assets/images/couple.jpg";
+import emailjs from 'emailjs-com';
 
 
 class Contact extends React.Component {
   render() {
+    
+    function SendEmail(e){
+      e.preventDefault();
+  
+      emailjs.sendForm('gmail', 'ampedlifedoulaemail', e.target, 'user_MUW1uLNHmDDdvMvRyMbNx')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        e.target.reset()
+    }
     return (
       <div id='contact'>
         <h4 id ='contactwelcome'>
@@ -46,7 +59,7 @@ class Contact extends React.Component {
             <Form.Row>
             <Form.Group inline controlId="formGridAddress1">
               <Form.Label inline>Due Date</Form.Label>
-              <Form.Control type='date' placeholder="MM/DD/YYYY" />
+              <Form.Control type='date' name ='date' placeholder="MM/DD/YYYY" />
 
           
               </Form.Group>
@@ -82,7 +95,7 @@ class Contact extends React.Component {
               />
             </Form.Group>
             <br></br>
-            <Button variant="primary" type="submit">
+            <Button onSubmit ={SendEmail} variant="primary" type="submit">
               Submit
             </Button>
           </Form>
