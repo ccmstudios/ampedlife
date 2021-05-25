@@ -649,4 +649,17 @@ font-size: 16px;
     #igfeed{
         display: none;
     }
+
+    #aboutmain{
+display: inline;   
+text-align: center;
+}
+  }
+
+  #abouttext{
+      display: inline-block;
+      text-align: center;
+      width: 100%;
+      padding: 10px;
+
   }
