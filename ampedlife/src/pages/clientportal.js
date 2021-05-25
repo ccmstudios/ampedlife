@@ -4,7 +4,7 @@ import Coming from "../components/comingsoon";
 class Clientportal extends React.Component {
   render() {
     return (
-      <div>
+      <div id='client'> 
         <Coming />
       </div>
     );

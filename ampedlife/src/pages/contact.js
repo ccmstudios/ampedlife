@@ -10,7 +10,7 @@ import Couple from "../assets/images/couple.jpg";
 class Contact extends React.Component {
   render() {
     return (
-      <div>
+      <div id='contact'>
         <h4 id ='contactwelcome'>
           Let's Discuss your family's goals and needs. I look forward to
           speaking with you!
@@ -25,9 +25,9 @@ class Contact extends React.Component {
             <div class="form-row">
                 <Form.Group as={Col} controlId="formGridPassword">
                 <Form.Label>First Name</Form.Label>
-                <Form.Control type="input" placeholder="First Name" />
+                <Form.Control type="name" placeholder="First Name" />
                 <Form.Label>Last Name</Form.Label>
-                <Form.Control type="input" placeholder="Last Name" />
+                <Form.Control type="name" placeholder="Last Name" />
               </Form.Group>
             </div>
 

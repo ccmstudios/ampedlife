@@ -663,3 +663,86 @@ text-align: center;
       padding: 10px;
 
   }
+
+  #servicemain{
+      display: flex;
+      justify-content: space-evenly;
+  }
+  #servicescontainer{
+      width: 100%;
+  }
+
+  #servicescontainer img{
+      display: none;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #servicemain p{
+      text-align: center;
+      font-size: 14px;
+      position: relative;
+      bottom: 20px;
+  }
+
+  #test{
+      width: 50%;
+      height: 70%;
+      padding: 10%;
+  }
+
+  #client{
+      padding: 10%;
+  }
+
+  #blog{
+      padding: 10%;
+  }
+
+  #contactpics{
+      display: none;
+      width: 100%;
+  }
+
+  #form{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: auto;
+      margin-left: auto;
+
+  }
+  #contactform{
+    position: relative;
+    left: auto;
+    right: auto;
+
+  }
+
+  #contact{
+    padding: 10%;
+
+  }
+
+  #social{
+     padding: 10px; 
+     display: inline;
+     justify-content: space-around;
+  }
+
+  #social li{
+      padding: 10px;
+  }
+
+  #social img{
+display: none;  
+}
+
+  #footer{
+      text-align: center;
+  }
+
+  #footer h3{
+      font-size: smaller;
+  }
