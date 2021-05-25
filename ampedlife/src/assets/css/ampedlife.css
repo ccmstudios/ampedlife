@@ -51,6 +51,11 @@ background-size: cover;
 width: 35%;
 }
 
+#carousel img{
+    width: 50px;
+    height: 400px;
+    object-fit: cover;
+}
 
 #welcomeintro{
     display: flex;
@@ -322,6 +327,7 @@ justify-content: center;}
     text-shadow: 1px 1px gray;
     font-size: smaller;
 text-align: left;
+transform: scale(0.9);
 }
 #servicemain{
     display: flex;
@@ -335,7 +341,7 @@ text-align: left;
 }
 
 #services li:hover{
-    transform: scale(1.1);
+    transform: scale(1.0);
     transition: ease 0.5s;
     color: gold;
 }

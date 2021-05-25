@@ -1,6 +1,5 @@
 import React from "react";
 import Amexia from "../assets/images/amexia.jpg";
-import { Link } from "react-router-dom";
 
 class About extends React.Component {
   render() {
@@ -13,10 +12,11 @@ class About extends React.Component {
             <p>
               I am Amexia Porterfield and I am a married mother of 3 amazing
               children and 1 angel baby. I decided to become a doula because of
-              my childbirth experiences and the difficult birth experiences of those I
-              care about. I have experienced early miscarriages, an ectopic
-              pregnancy, and 2 preterm births that resulted in one child having
-              a NICU stay and a child that passed away in the second trimester.
+              my childbirth experiences and the difficult birth experiences of
+              those I care about. I have experienced early miscarriages, an
+              ectopic pregnancy, and 2 preterm births that resulted in one child
+              having a NICU stay and a child that passed away in the second
+              trimester.
               <br></br>
               <br></br>I had no one to really guide me through the traumas of my
               high-risk pregnancies and my pregnancy losses. I found it hard to
@@ -33,7 +33,6 @@ class About extends React.Component {
               honor to support your birthing needs.
               <br></br>
               <br></br>
-              
               <strong>
                 My mission is to provide the best pregnancy, postpartum, and
                 bereavement support to families virtually, in Charlotte and the
@@ -42,11 +41,13 @@ class About extends React.Component {
               </strong>
             </p>
             <div id="chat">
-              <Link to="/contact">
-                <a href="/contact">
-                  <h1>Let's Chat!</h1>
-                </a>
-              </Link>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://l.facebook.com/l.php?u=https%3A%2F%2Fcalendly.com%2Fampedlifedoulaservices%2F30min%3Ffbclid%3DIwAR3QciVOAp_YKsVro2lt2YAcQdya-zlu0eZlI3clIsIKFzocWAMUIgxDGes&h=AT1K337f5DERrE5T97XIZrrP-kIYAo2LdH8ytxTpy-DKrrRmCJtyvu_9WYAuDFrmPLEHGE5KvVRjylvGiGDUrphN8TPibRKzaw9_mO2uJD9WcGBtxfl-YkygtjkAmI21jUTRPcvis-28-45L9oIERw"
+              >
+                <h1>Let's Chat!</h1>
+              </a>
             </div>
           </div>
         </div>

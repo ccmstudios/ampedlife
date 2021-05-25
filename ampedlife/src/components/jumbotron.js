@@ -17,7 +17,7 @@ class Jumbotron extends React.Component{
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={Jumboimage1}
+      src={Jumboimage6}
       alt="First slide"
     />
   
@@ -34,7 +34,7 @@ class Jumbotron extends React.Component{
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={Jumboimage3}
+      src={Jumboimage5}
       alt="Third slide"
     />
 
@@ -52,7 +52,7 @@ class Jumbotron extends React.Component{
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={Jumboimage5}
+      src={Jumboimage3}
       alt="Third slide"
     />
 
@@ -61,7 +61,7 @@ class Jumbotron extends React.Component{
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={Jumboimage6}
+      src={Jumboimage1}
       alt="Third slide"
     />
 

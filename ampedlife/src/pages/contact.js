@@ -39,14 +39,14 @@ class Contact extends React.Component {
 
               <Form.Group as={Col} controlId="formGridPassword">
                 <Form.Label>Phone</Form.Label>
-                <Form.Control type="input" placeholder="(123)456-7890" />
+                <Form.Control type="number" placeholder="(123)456-7890" />
               </Form.Group>
             </Form.Row>
 
             <Form.Row>
             <Form.Group inline controlId="formGridAddress1">
               <Form.Label inline>Due Date</Form.Label>
-              <Form.Control placeholder="MM/DD/YYYY" />
+              <Form.Control type='date' placeholder="MM/DD/YYYY" />
 
           
               </Form.Group>

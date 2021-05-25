@@ -20,11 +20,7 @@ class Servicecard extends React.Component {
             transition={false}
             style={{ justifyContent: "space-evenly" }}
           >
-            <Tab
-              id="servicetabs"
-              eventKey="birthplan"
-              title="Birth Plan Only"
-            >
+            <Tab id="servicetabs" eventKey="birthplan" title="Birth Plan Only">
               <br></br>
               <h1>Birth Planning Only - $120</h1>
               <br></br>
@@ -97,6 +93,18 @@ class Servicecard extends React.Component {
                 <li>
                   Postpartum follow up visit to review your birth experience,
                   offer resources for postpartum care.
+                </li>
+                <li>
+                  Postpartum follow up visit to review your birth experience,
+                  offer resources for postpartum care.
+                </li>
+                <li>
+                  Postpartum follow up visit to see how you are adjusting and
+                  offer early breastfeeding support if desired.
+                </li>
+                <li>
+                  Postpartum Self-Care Basket filled with goodies that aid in
+                  your recovery and promotes positive energy.
                 </li>
               </ul>
               <div id="booking">
@@ -269,12 +277,11 @@ class Servicecard extends React.Component {
                 <br></br>
                 <br></br>
                 <p>
-                  You may be restricted on room or you want a more intimate
-                  setting with just you and your birthing partner. Virtual
-                  support allows me to support your birth no matter your
-                  location. I can use my tools and kTodayledge to help you
-                  prepare for your birth and help your partner support your
-                  needs.{" "}
+                  Due to limited space or a desire to have a more intimate setting
+                  with just you and your birthing partner, virtual support
+                  allows me to meet your needs no matter your location. I can
+                  use my tools and knowledge to help you prepare for your
+                  birth and help your partner support your needs.{" "}
                 </p>
               </div>
               <br></br>
