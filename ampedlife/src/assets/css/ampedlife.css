@@ -694,6 +694,9 @@ font-size: 16px;
 #navbar{
     width:100%;
 }
+#igfeed{
+    display: none;
+}
     }
 /* On screens that are 992px wide or less, go from four columns to two columns */
 @media screen and (min-width: 650px) {
@@ -764,6 +767,9 @@ font-size: 16px;
     margin-right: auto;
     position: relative;
     left: 0;
+}
+#igfeed{
+    display: none;
 }
     }
   
@@ -884,6 +890,9 @@ display: none;
   #footer h3{
       font-size: smaller;
   }
+  #igfeed{
+    display: none;
+}
 
   /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
@@ -892,6 +901,9 @@ display: none;
       }
       #doulainfo{
         width: 300px;
+    }
+    #igfeed{
+        display: none;
     }
   }
 
