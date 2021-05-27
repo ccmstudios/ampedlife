@@ -1,702 +1,733 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vidaloka&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
-
-body{
-background-color:gray;
-filter: sepia(20%);
-background-size: cover;
-background-attachment: fixed;
-background-repeat: no-repeat;
-background-size: cover;
+body {
+  background-color: gray;
+  filter: sepia(20%);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
 
 /* navbar start */
-#navbar{
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-    background: linear-gradient(45deg,lightblue,pink);
+#navbar {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  background: linear-gradient(45deg, lightblue, pink);
 }
 
-#navbar p{
-    color: #800020;
-    font-size: 30px;
-    font-family: 'Vidaloka', serif;
-    margin-top: 30px;
-    text-decoration:none;
-    text-shadow: 1px 1px black;
+#navbar p {
+  color: #800020;
+  font-size: 30px;
+  font-family: "Vidaloka", serif;
+  margin-top: 30px;
+  text-decoration: none;
+  text-shadow: 1px 1px black;
 }
 
-.logo-transparent{
-    width: 200px;
+.logo-transparent {
+  width: 200px;
 }
 
-#navbar li{
-    position: relative;
-    top: 90px;
+#navbar li {
+  position: relative;
+  top: 90px;
 }
 
-#mobilenav{
-    display: none;
+#mobilenav {
+  display: none;
 }
 /* navbar finish */
 
 /* Home page start */
 
-#carousel{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-width: 35%;
+#carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
 }
 
-#carousel img{
-    width: 50px;
-    height: 400px;
-    object-fit: cover;
+#carousel img {
+  width: 50px;
+  height: 400px;
+  object-fit: cover;
 }
 
-#welcomeintro{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    background-color: linear-gradient(45deg,purple, pink);
-
+#welcomeintro {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: linear-gradient(45deg, purple, pink);
 }
 
-#homemain h1{
-    font-family: 'Vidaloka', serif;
-    font-size: 78px;
-
+#homemain h1 {
+  font-family: "Vidaloka", serif;
+  font-size: 78px;
 }
 
-#welcomemessage{
-    display: flex;
-    text-align: center;
-    width: 100%;
-    background-color: linear-gradient(45deg,purple, pink);
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 28px;
-
-
+#welcomemessage {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  background-color: linear-gradient(45deg, purple, pink);
+  font-family: "Shadows Into Light", cursive;
+  font-size: 28px;
 }
 
-#startbutton{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-background:linear-gradient(45deg,lightblue,pink);
-width: fit-content;
-padding: 10px;
-border-color: black;
-border:2px;
-border-style: solid;
-width: 200px;
-font-family: 'Shadows Into Light', cursive;
-color: white;
-font-weight: bold;
-border-radius: 5%;
+#startbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(45deg, lightblue, pink);
+  width: fit-content;
+  padding: 10px;
+  border-color: black;
+  border: 2px;
+  border-style: solid;
+  width: 200px;
+  font-family: "Shadows Into Light", cursive;
+  color: white;
+  font-weight: bold;
+  border-radius: 5%;
 }
 
-#startbutton a{
-    color: white;
-    font-size: larger;
+#startbutton a {
+  color: white;
+  font-size: larger;
 }
 
-#hardbreak{
-    width: 80%;
-    font-weight: bold;
-    height: 10px;
-    border-width: 3px black;
+#hardbreak {
+  width: 80%;
+  font-weight: bold;
+  height: 10px;
+  border-width: 3px black;
 }
 
-#homemain{
-    width: 50%;
-    display: inline;
-    padding: 10px;
-
+#homemain {
+  width: 50%;
+  display: inline;
+  padding: 10px;
 }
-#homemain p{
-width: 50%;
-display: flex;
-margin-left: auto;
-margin-right: auto;
-font-size: 24px;
-}
-
-#homemain a{
-    font-size: 24px;
+#homemain p {
+  width: 50%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 24px;
 }
 
-#homecard{
-    width: 30%;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    align-items: center;
-}
-#homepics{
-    width: 30%;
-    -webkit-box-shadow:  3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-    -moz-box-shadow:     3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
-    box-shadow:          3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+#homemain a {
+  font-size: 24px;
 }
 
-#chatmain{
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    border: solid 5px pink;
-    width: fit-content;
-    border-radius: 7%;
-    background: linear-gradient(45deg,lightblue,pink);
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: 300px;
-
+#homecard {
+  width: 30%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
 }
-#babypic1{
-    width: 30%;
-}
-#rowone{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 28px;
-}
-#lexi{
-width: 40%;
-border-radius: 5%;
--webkit-box-shadow:  3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
--moz-box-shadow:     3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
-box-shadow:          3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+#homepics {
+  width: 30%;
+  -webkit-box-shadow: 3px 5px 6px #ccc; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 3px 5px 6px #ccc; /* Firefox 3.5 - 3.6 */
+  box-shadow: 3px 5px 6px #ccc; /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 
-#rowtwo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 28px;
-
-
+#chatmain {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 5px pink;
+  width: fit-content;
+  border-radius: 7%;
+  background: linear-gradient(45deg, lightblue, pink);
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 300px;
 }
-#rowthree{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 28px;
-
-    
+#babypic1 {
+  width: 30%;
 }
-
-#homeblog{
-    display: flex;
-    background-color: #bfb4dd;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 20px;
-    color: white;
+#rowone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 28px;
 }
-
-#homeblogbutton{
-    border: white;
-    padding: 10px;
-    border-style: solid;
-    border-width: 10px;
-    font-size: 24px;
-    color: white;
+#lexi {
+  width: 40%;
+  border-radius: 5%;
+  -webkit-box-shadow: 3px 5px 6px #ccc; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 3px 5px 6px #ccc; /* Firefox 3.5 - 3.6 */
+  box-shadow: 3px 5px 6px #ccc; /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 
-#igfeed{
-    height: 500px;
-    position: relative;
-    top: 150px;
-    right: 175px;
-
+#rowtwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 28px;
+}
+#rowthree {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 28px;
 }
 
-#doulainfo{
-    width: 600px;
+#homeblog {
+  display: flex;
+  background-color: #bfb4dd;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+  color: white;
+}
+
+#homeblogbutton {
+  border: white;
+  padding: 10px;
+  border-style: solid;
+  border-width: 10px;
+  font-size: 24px;
+  color: white;
+}
+
+#igfeed {
+  height: 500px;
+  position: relative;
+  top: 150px;
+  right: 175px;
+}
+
+#doulainfo {
+  width: 600px;
 }
 /* Home page finish */
 
-
 /* About page start */
-#about{
-    padding: 10%;
-    width: 60%;
-    display: inline;
-    align-items: center;
-    justify-content: center;
+#about {
+  padding: 10%;
+  width: 60%;
+  display: inline;
+  align-items: center;
+  justify-content: center;
 }
 
-#about img{
-    width: 25%;
-    border-radius: 5%;
-    -webkit-box-shadow:  3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-    -moz-box-shadow:     3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
-    box-shadow:          3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+#about img {
+  width: 25%;
+  border-radius: 5%;
+  -webkit-box-shadow: 3px 5px 6px #ccc; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 3px 5px 6px #ccc; /* Firefox 3.5 - 3.6 */
+  box-shadow: 3px 5px 6px #ccc; /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 
-#about p{
-    display: inline-block;
+#about p {
+  display: inline-block;
   padding: 50px;
-    text-align: left;
-
+  text-align: left;
 }
 
-#about a{
-    font-size: 40px;
-color:white;
-text-shadow: 2px 2px black;
+#about a {
+  font-size: 40px;
+  color: white;
+  text-shadow: 2px 2px black;
 }
 
-#about h4{
-    text-align: left;
-    display: inline-block;
-    padding: 50px;
+#about h4 {
+  text-align: left;
+  display: inline-block;
+  padding: 50px;
 }
 
-#aboutmain{
-    display: flex;
-justify-content: center;}
-
-#abouttext{
-    width: 50%;
-}
-#abouttext h1{
-    font-weight: bold;
-    font-style: italic;
+#aboutmain {
+  display: flex;
+  justify-content: center;
 }
 
-#chat{
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    border: solid 5px pink;
-    width: fit-content;
-    border-radius: 7%;
-    background: linear-gradient(45deg,lightblue,pink);
-
+#abouttext {
+  width: 50%;
+}
+#abouttext h1 {
+  font-weight: bold;
+  font-style: italic;
 }
 
-#chat:hover{
-    background-color: pink;
-    
+#chat {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 5px pink;
+  width: fit-content;
+  border-radius: 7%;
+  background: linear-gradient(45deg, lightblue, pink);
+}
+
+#chat:hover {
+  background-color: pink;
 }
 /* About page finish */
 
 /* Services Page start */
-#services{
-    display: inline;
-    padding:30px;
-    border: 100px;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    height: 1000px;
+#services {
+  display: inline;
+  padding: 30px;
+  border: 100px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 1000px;
 }
 
-#services h1{
-    font-family: 'Dancing Script', cursive;
+#services h1 {
+  font-family: "Dancing Script", cursive;
 }
 
-#services img{
-    width: 70%;
-    border-radius: 5%;
-    -webkit-box-shadow:  3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-    -moz-box-shadow:     3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
-    box-shadow:          3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+#services img {
+  width: 70%;
+  border-radius: 5%;
+  -webkit-box-shadow: 3px 5px 6px #ccc; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 3px 5px 6px #ccc; /* Firefox 3.5 - 3.6 */
+  box-shadow: 3px 5px 6px #ccc; /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 
-#services ul{
-    display: inline;
-    justify-content: space-between;
-    
+#services ul {
+  display: inline;
+  justify-content: space-between;
 }
 
-#services li{
-    padding: 20px;
-    color: black;
-    text-shadow: 1px 1px gray;
-    font-size: smaller;
-text-align: left;
-transform: scale(0.9);
+#services li {
+  padding: 20px;
+  color: black;
+  text-shadow: 1px 1px gray;
+  font-size: smaller;
+  text-align: left;
+  transform: scale(0.9);
 }
-#servicemain{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-#servicemain p{
-    font-size: 30px;
-    text-align: left;
-    justify-content: left;
+#servicemain {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-#services li:hover{
-    transform: scale(1.0);
-    transition: ease 0.5s;
-    color: gold;
+#servicemain p {
+  font-size: 30px;
+  text-align: left;
+  justify-content: left;
 }
 
-#servicelist{
-    display: inline-block;
-    margin-left: 0;
-    margin-right: 0;
-    width: 50%;
-    background: linear-gradient(45deg,blue,pink);
-    border-radius: 5%;
+#services li:hover {
+  transform: scale(1);
+  transition: ease 0.5s;
+  color: gold;
 }
 
-#servicesnav{
-    font-family: 'Vidaloka', serif;
-    background: linear-gradient(45deg, pink, dodgerblue);
-}
-
-#servicesnav ul{
-    display: flex;
-
-}
-
-#servicesnav ul li{
-    color: black;
-    font-size: larger;
-}
-
-#servicerows{
-    padding: 80px;
-}
-
-#testbutton{
-    position: fixed;
-    top: 500px;
-    right: 40px;
-    border: 3px solid black;
-    z-index:999;
-    cursor: pointer;
-}
-
-#servicesection{
-    display: inline;
-    padding: 10px;
-    
-}
-
-#servicesection h1{
-    background-color: plum;
-}
-
-#servicetitle{
-    display: inline;
-    justify-content: center;
-    align-items: center;
-    background-color: plum;
-border: 10px;
-}
-
-#servicetitle img{
-    width: 70%;
-}
-#servicedescription{
-display: flex;
-align-items: center;
-justify-content: left;
-text-align: left;
-background-color: plum;
-
-}
-
-#servicedescription h4{
-    font-size: 22px;
-    padding: 20px;
-    position: relative;
-    right: 30px;
-}
-
-#servicesubsection{
-    display: flex;
-    height: 500px;
-    background-color: plum;
-}
-
-
-#servicebuttonbox{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: slategray;
-    height: 500px;
-    padding: 80px;
-    position: relative;
-    top: 25px;
-}
-
-#servicebutton{
-    background-color: black;
-    border-radius: 5%;
-    color: white;
-    box-shadow: 5px 5px purple;
-}
-
-#servicebutton a{
-    color: white;
-}
-
-#servicescontainer{
-background: linear-gradient(45deg,lightblue,pink);
-width: 70%;
-justify-content: center;
-margin-left: auto;
-margin-right: auto;
-height: fit-content;
-padding: 15px;
-}
-
-#servicescontainer img{
-    width: 450px;
-    height: 450px;
-    object-fit: cover;
-}
-
-#servicescontainer p{
-    width: 50%;
-    text-align: left;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-#servicescontainer h3{
-    text-align: left;
-    text-decoration: underline;
-}
-#servicescontainer li{
-    margin-left: 50px;
-    font-size: 22px;
-}
-
-#servicescontainer h4{
-    font-size: 16px;
-    font-weight: bold;
-}
-#dropdowndiv{
-    background: linear-gradient(45deg,pink,lightblue);
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    height: fit-content;
-}
-
-#dropdowndivp{
-    width: 60%;
-    margin-left: left;
-    margin-right: auto;
-    width: fit-content;
-}
-
-#servicetabs{
-    height: 1800px;
-    justify-content: space-evenly;
-}
-
-
-/* Servicds Page finish */
-
-/* Contact Page start */
-#form{
-    padding: 10px;
-    width: 100%;
-    display: flex;
-height: fit-content;
-margin-left: auto;
-}
-
-#babysmile{
-    /* position: relative;
-    bottom: 700px;
-    right:300px; */
-    width: 20%;
-    border-radius: 5%;
-    display: flex;
-    /* margin-left: auto; */
-    justify-content: space-around;
-}
-
-#contactwelcome{
-    font-family: 'Vidaloka', serif;
-font-size: 40px;
-}
-
-#contactpics{
-    padding: 20px;
-    display: inline;
-    justify-content: space-around;
-    align-items: center;
-}
-
-#form img{
-    padding: 10px;
-    width: 50%;
-    position: relative;
-    left: 150px;
-}
-#contactform{
-    display: inline;
-    float: left;
-    width: 1200px;
-    padding: 10px;
-    position: relative;
-    right: 200px;
-    top: 25px;
-    background: linear-gradient(45deg,lightblue,pink);
-
-    border-radius: 5%;
-    -webkit-box-shadow:  3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-    -moz-box-shadow:     3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
-    box-shadow:          3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-    height: fit-content;
-
-}
-
-#formGridCheckbox{
-display: flex;
-
-}
-
-
-#textbox{
-    height: 200px;
-}
-/* contact Page finish */
-
-
-#coming{
-    margin-left: 0;
-}
-#test{
-    display: flex;
-    justify-content: center;
-    color: #800020;
-    font-size: 78px;
-    text-shadow: 2px 2px black;
-    align-items: center;
-    height:700px;
-    background-size: cover;
-    background: linear-gradient(45deg,lightblue,pink);
-    width:50%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 5%;
-    -webkit-box-shadow:  3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-    -moz-box-shadow:     3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
-    box-shadow:          3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-}
-
-#footer{
-    display: inline-block;
-    justify-content: left;
-    color: #800020;  
-    text-shadow: 1px 1px black;
-    background: linear-gradient(45deg,lightblue,pink);
-width: 100%;
-padding: 10px;
-}
-
-#footer img{
-    width: 120px;
-    height: auto;
-}
-
-#footer h4{
-    font-size: smaller;
-}
-
-#social h3{
-font-size: 16px;
-}
-
-#social ul{
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
-}
-
-#social img{
-    width: 60px;
-}
-
-/* On screens that are 992px wide or less, go from four columns to two columns */
-@media screen and (max-width: 992px) {
-    #navigation{
-        display: none;
-    }
-    #mobilenav{
-        display: flex;
-        align-items: center;
-        width: 100%;
-    }
-    #mobilenav li{
-        font-size: smaller;
-    }
-#hamburger{
-    position: absolute;
-    right: 5%;
-    cursor: pointer;
-    display: none;
-}
-
-#servicemain{
-    display: flex;
-    justify-content: space-evenly;
-}
-#servicescontainer{
-    width: 100%;
-}
-
-#servicemain img{
-    width: 50%;
-}
-
-#servicescontainer img{
-    display: none;
+#servicelist {
+  display: inline-block;
+  margin-left: 0;
+  margin-right: 0;
   width: 50%;
+  background: linear-gradient(45deg, blue, pink);
+  border-radius: 5%;
+}
+
+#servicesnav {
+  font-family: "Vidaloka", serif;
+  background: linear-gradient(45deg, pink, dodgerblue);
+}
+
+#servicesnav ul {
+  display: flex;
+}
+
+#servicesnav ul li {
+  color: black;
+  font-size: larger;
+}
+
+#servicerows {
+  padding: 80px;
+}
+
+#testbutton {
+  position: fixed;
+  top: 500px;
+  right: 40px;
+  border: 3px solid black;
+  z-index: 999;
+  cursor: pointer;
+}
+
+#servicesection {
+  display: inline;
+  padding: 10px;
+}
+
+#servicesection h1 {
+  background-color: plum;
+}
+
+#servicetitle {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  background-color: plum;
+  border: 10px;
+}
+
+#servicetitle img {
+  width: 70%;
+}
+#servicedescription {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  text-align: left;
+  background-color: plum;
+}
+
+#servicedescription h4 {
+  font-size: 22px;
+  padding: 20px;
+  position: relative;
+  right: 30px;
+}
+
+#servicesubsection {
+  display: flex;
+  height: 500px;
+  background-color: plum;
+}
+
+#servicebuttonbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: slategray;
+  height: 500px;
+  padding: 80px;
+  position: relative;
+  top: 25px;
+}
+
+#servicebutton {
+  background-color: black;
+  border-radius: 5%;
+  color: white;
+  box-shadow: 5px 5px purple;
+}
+
+#servicebutton a {
+  color: white;
+}
+
+#servicescontainer {
+  background: linear-gradient(45deg, lightblue, pink);
+  width: 70%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: fit-content;
+  padding: 15px;
+}
+
+#servicescontainer img {
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+}
+
+#servicescontainer p {
+  width: 50%;
+  text-align: left;
   margin-right: auto;
   margin-left: auto;
 }
 
-#servicemain p{
-    text-align: center;
-    font-size: 14px;
-    position: relative;
-    bottom: 20px;
+#servicescontainer h3 {
+  text-align: left;
+  text-decoration: underline;
 }
-#navbar li{
-    font-size: 14px;
+#servicescontainer li {
+  margin-left: 50px;
+  font-size: 22px;
 }
 
-
-
-#navbar{
-    width:100%;
+#servicescontainer h4 {
+  font-size: 16px;
+  font-weight: bold;
 }
-#igfeed{
+#dropdowndiv {
+  background: linear-gradient(45deg, pink, lightblue);
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: fit-content;
+}
+
+#dropdowndivp {
+  width: 60%;
+  margin-left: left;
+  margin-right: auto;
+  width: fit-content;
+}
+
+#servicetabs {
+  height: 1800px;
+  justify-content: space-evenly;
+}
+
+/* Servicds Page finish */
+
+/* Contact Page start */
+#form {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  height: fit-content;
+  margin-left: auto;
+}
+
+#babysmile {
+  /* position: relative;
+    bottom: 700px;
+    right:300px; */
+  width: 20%;
+  border-radius: 5%;
+  display: flex;
+  /* margin-left: auto; */
+  justify-content: space-around;
+}
+
+#contactwelcome {
+  font-family: "Vidaloka", serif;
+  font-size: 40px;
+}
+
+#contactpics {
+  padding: 20px;
+  display: inline;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#form img {
+  padding: 10px;
+  width: 50%;
+  position: relative;
+  left: 150px;
+}
+#contactform {
+  display: inline;
+  float: left;
+  width: 1200px;
+  padding: 10px;
+  position: relative;
+  right: 200px;
+  top: 25px;
+  background: linear-gradient(45deg, lightblue, pink);
+
+  border-radius: 5%;
+  -webkit-box-shadow: 3px 5px 6px #ccc; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 3px 5px 6px #ccc; /* Firefox 3.5 - 3.6 */
+  box-shadow: 3px 5px 6px #ccc; /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  height: fit-content;
+}
+
+#formGridCheckbox {
+  display: flex;
+}
+
+#textbox {
+  height: 200px;
+}
+/* contact Page finish */
+
+#coming {
+  margin-left: 0;
+}
+#test {
+  display: flex;
+  justify-content: center;
+  color: #800020;
+  font-size: 78px;
+  text-shadow: 2px 2px black;
+  align-items: center;
+  height: 700px;
+  background-size: cover;
+  background: linear-gradient(45deg, lightblue, pink);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
+  -webkit-box-shadow: 3px 5px 6px #ccc; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 3px 5px 6px #ccc; /* Firefox 3.5 - 3.6 */
+  box-shadow: 3px 5px 6px #ccc; /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+#footer {
+  display: inline-block;
+  justify-content: left;
+  color: #800020;
+  text-shadow: 1px 1px black;
+  background: linear-gradient(45deg, lightblue, pink);
+  width: 100%;
+  padding: 10px;
+}
+
+#footer img {
+  width: 120px;
+  height: auto;
+}
+
+#footer h4 {
+  font-size: smaller;
+}
+
+#social h3 {
+  font-size: 16px;
+}
+
+#social ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+#social img {
+  width: 60px;
+}
+/* Media Queries */
+
+@media only screen and (min-width: 320px) and (max-width: 667px) /* mobile devices */ {
+ 
+  #footer h3 {
+    font-size: 100%;
+  }
+  #footer li img {
     display: none;
+  }
+  #igfeed {
+    display: none;
+  }
+  #doulainfo {
+    width: 60%;
+  }
+
+  #chatmain {
+    display: none;
+  }
+  #carousel {
+    width: 100%;
+  }
+  #navbar img {
+    display: none;
+  }
+  #navbar li {
+    font-size: 16px;
+    position: relative;
+    top: 0;
+  }
+  #about img {
+    display: none;
+  }
+  #abouttext {
+    width: 100%;
+  }
+
+  #servicemain img {
+    display: none;
+  }
+  #servicemain p {
+    font-size: smaller;
+    width: 100%;
+  }
+
+  #contactpics {
+    display: none;
+  }
+  #contact {
+    padding: 30px;
+  }
+  #contactform {
+    position: relative;
+    right: 0;
+  }
+
+  #contact h4 {
+    display: none;
+  }
 }
-    }
+
+@media only screen and (min-width:668px) and (max-width:1366px)
+/* tablets */
+{
+   
+    #about img {
+        display: none;
+      }
+      #igfeed{
+          display: none;
+      }
+      #chatmain{
+          display: none;
+      }
+      #carousel{
+          width: 100%;
+      }
+      #navbar li{
+          font-size: smaller;
+          position: relative;
+          top:0;
+      }
+      #navbar img{
+          display: none;
+      }
+
+      #abouttext{
+          width: 100%;
+      }
+      #servicemain img{
+          display: none;
+      }
+      #servicemain p{
+          font-size: 20px;
+          text-align: center;
+          width: 100%;
+      }
+      #contactpics {
+        display: none;
+      }
+      #contact {
+        padding: 30px;
+      }
+      #contactform {
+        position: relative;
+        right: 0;
+      }
+    
+      #contact h4 {
+        display: none;
+      }
+
+
+}
+
