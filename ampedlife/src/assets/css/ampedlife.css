@@ -558,6 +558,8 @@ font-size: 40px;
     left: 150px;
 }
 #contactform{
+    display: inline;
+    float: left;
     width: 1200px;
     padding: 10px;
     position: relative;

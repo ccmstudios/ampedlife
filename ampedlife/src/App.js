@@ -5,6 +5,7 @@ import Blog from './pages/blog'
 import Contact from './pages/contact'
 import Clientportal from './pages/clientportal'
 import Services from './pages/services'
+import Test from './pages/test'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Navbar from './components/navbar';
 import './assets/css/ampedlife.css'
@@ -26,6 +27,7 @@ function App() {
 <Route exact path ='/contact' component ={Contact}/>
 <Route exact path ='/clientportal' component ={Clientportal}/>
 <Route exact path ='/services' component ={Services}/>
+<Route exact path ='/test' component ={Test}/>
 
    <Home/>
   </Switch>

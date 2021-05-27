@@ -27,6 +27,9 @@ const NavLinks = ()=>{
 <Link style ={{textDecoration: 'none'}} to='/contact'>
    <p><li>Contact</li></p>
 </Link>
+<Link style ={{textDecoration: 'none'}} to='/test'>
+   <p><li>Contact</li></p>
+</Link>
 
 </ul>
     )

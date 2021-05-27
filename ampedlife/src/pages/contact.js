@@ -14,7 +14,7 @@ class Contact extends React.Component {
     function SendEmail(e){
       e.preventDefault();
   
-      emailjs.sendForm('gmail', 'ampedlifedoulaemail', e.target, 'user_MUW1uLNHmDDdvMvRyMbNx')
+      emailjs.sendForm('service_rpx07ns', 'ampedlifedoulaemail', e.target, 'user_MUW1uLNHmDDdvMvRyMbNx')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
@@ -38,21 +38,21 @@ class Contact extends React.Component {
             <div class="form-row">
                 <Form.Group as={Col} controlId="formGridPassword">
                 <Form.Label>First Name</Form.Label>
-                <Form.Control type="name" name='FirstName' placeholder="First Name" />
+                <Form.Control type="name" name="user_name" placeholder="First Name" />
                 <Form.Label>Last Name</Form.Label>
-                <Form.Control type="name" name='LastName'placeholder="Last Name" />
+                <Form.Control type="name" name="user_name" placeholder="Last Name" />
               </Form.Group>
             </div>
 
             <Form.Row>
               <Form.Group as={Col} controlId="formGridEmail">
                 <Form.Label className="inline">Email</Form.Label>
-                <Form.Control type="email"name ='Email' placeholder="Enter email" />
+                <Form.Control type="email" name="user_email" placeholder="Enter email" />
               </Form.Group>
 
               <Form.Group as={Col} controlId="formGridPassword">
                 <Form.Label>Phone</Form.Label>
-                <Form.Control type="number" name ='PhoneNumber' placeholder="(123)456-7890" />
+                <Form.Control type="number" name="contact_number" placeholder="(123)456-7890" />
               </Form.Group>
             </Form.Row>
 
@@ -98,7 +98,7 @@ class Contact extends React.Component {
             <Button onSubmit ={SendEmail} variant="primary" type="submit">
               Submit
             </Button>
-            return (
+          
     <form className="contact-form" onSubmit={SendEmail}>
       <input type="hidden" name="contact_number" />
       <label>Name</label>
@@ -109,7 +109,7 @@ class Contact extends React.Component {
       <textarea name="message" />
       <input type="submit" value="Send" />
     </form>
-  );
+
 
           </Form>
         </div>
