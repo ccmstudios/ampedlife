@@ -511,13 +511,10 @@ display: none;
 }
 
 #babysmile {
-  /* position: relative;
-    bottom: 700px;
-    right:300px; */
+
   width: 20%;
   border-radius: 5%;
   display: flex;
-  /* margin-left: auto; */
   justify-content: space-around;
 }
 
@@ -723,7 +720,7 @@ display: none;
   }
 }
 
-@media only screen and (min-width: 668px) and (max-width: 1366px) /* tablets */ {
+@media only screen and (min-width: 668px) and (max-width: 1366px) /* tablets to Chromebooks */ {
   
   #mobilepics {
     width: 65%;
