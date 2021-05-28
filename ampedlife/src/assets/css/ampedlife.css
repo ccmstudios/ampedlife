@@ -232,7 +232,7 @@ body {
 }
 
 #about img {
-  width: 25%;
+  width: 40%;
   border-radius: 5%;
   -webkit-box-shadow: 3px 5px 6px #ccc; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow: 3px 5px 6px #ccc; /* Firefox 3.5 - 3.6 */
@@ -618,16 +618,8 @@ body {
 /* Media Queries */
 
 @media only screen and (min-width: 320px) and (max-width: 667px) /* mobile devices */ {
+
  
-  #footer h3 {
-    font-size: 100%;
-  }
-  #footer li img {
-    display: none;
-  }
-  #igfeed {
-    display: none;
-  }
   #doulainfo {
     width: 60%;
   }
@@ -646,21 +638,120 @@ body {
     position: relative;
     top: 0;
   }
-  #about img {
-    display: none;
+  #aboutmain{
+    display: inline;
   }
   #abouttext {
     width: 100%;
   }
 
   #servicemain img {
+    width: 70%;
+    height: 70%;
+  }
+  #homemain p{
+    width: 80%;
+    font-size: 16px;
+    text-align: left;
+  }
+
+  #homemain a{
+    font-size:100%;
+  }
+
+  
+ 
+  #igfeed {
     display: none;
   }
+  
+  #servicemain {
+    display: inline;
+  }
   #servicemain p {
+    text-align: center;
     font-size: smaller;
     width: 100%;
   }
 
+  #servicescontainer li {
+    font-size: 14px;
+    padding: 1px;
+  }
+  #servicescontainer h3 {
+    text-align: center;
+  }
+
+  #servicescontainer h1 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #contactpics {
+    display: none;
+  }
+  #contact {
+    padding: 30px;
+  }
+  #contactform {
+    position: relative;
+    right: 0;
+  }
+
+  #mobilepics {
+    width: 70%;
+    display: flex;
+    object-fit: cover;
+    position: relative;
+    right: 160px;
+  }
+
+  #servicetabs{
+    width: 50%;
+  }
+
+  #social h3{
+    display: none;
+  }
+
+  #footer h3{
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 668px) and (max-width: 1366px) /* tablets */ {
+  #about img {
+    display: none;
+  }
+  #igfeed {
+    display: none;
+  }
+  #chatmain {
+    display: none;
+  }
+  #carousel {
+    width: 100%;
+  }
+  #navbar li {
+    font-size: smaller;
+    position: relative;
+    top: 0;
+  }
+  #navbar img {
+    display: none;
+  }
+
+  #abouttext {
+    width: 100%;
+  }
+  #servicemain img {
+    display: none;
+  }
+  #servicemain p {
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+  }
   #contactpics {
     display: none;
   }
@@ -676,58 +767,3 @@ body {
     display: none;
   }
 }
-
-@media only screen and (min-width:668px) and (max-width:1366px)
-/* tablets */
-{
-   
-    #about img {
-        display: none;
-      }
-      #igfeed{
-          display: none;
-      }
-      #chatmain{
-          display: none;
-      }
-      #carousel{
-          width: 100%;
-      }
-      #navbar li{
-          font-size: smaller;
-          position: relative;
-          top:0;
-      }
-      #navbar img{
-          display: none;
-      }
-
-      #abouttext{
-          width: 100%;
-      }
-      #servicemain img{
-          display: none;
-      }
-      #servicemain p{
-          font-size: 20px;
-          text-align: center;
-          width: 100%;
-      }
-      #contactpics {
-        display: none;
-      }
-      #contact {
-        padding: 30px;
-      }
-      #contactform {
-        position: relative;
-        right: 0;
-      }
-    
-      #contact h4 {
-        display: none;
-      }
-
-
-}
-

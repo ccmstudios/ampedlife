@@ -6,9 +6,9 @@ class About extends React.Component {
     return (
       <div id="about">
         <div id="aboutmain">
-          <img src={Amexia} alt="Amexia Porterfield" />
           <div id="abouttext">
             <h1>Meet Your Doula</h1>
+          <img src={Amexia} alt="Amexia Porterfield" />
             <p>
               I am Amexia Porterfield and I am a married mother of 3 amazing
               children and 1 angel baby. I decided to become a doula because of

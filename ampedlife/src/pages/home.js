@@ -12,7 +12,7 @@ class Home extends React.Component {
 
         <hr></hr>
         <div id="homemain">
-          <h1>Welcome</h1>
+          <h1>Welcome!</h1>
           <p>
             The pregnancy journey can be a beautiful yet life-altering time for
             everyone involved. As your doula, I am here to help support you and
