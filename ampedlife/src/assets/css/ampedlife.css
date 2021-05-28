@@ -506,6 +506,10 @@ body {
   margin-left: auto;
 }
 
+#mobilepics {
+display: none;
+}
+
 #babysmile {
   /* position: relative;
     bottom: 700px;
@@ -720,8 +724,13 @@ body {
 }
 
 @media only screen and (min-width: 668px) and (max-width: 1366px) /* tablets */ {
-  #about img {
-    display: none;
+  
+  #mobilepics {
+    width: 65%;
+    display: flex;
+    object-fit: cover;
+    position: relative;
+    right: 140px;
   }
   #igfeed {
     display: none;
@@ -744,8 +753,8 @@ body {
   #abouttext {
     width: 100%;
   }
-  #servicemain img {
-    display: none;
+  #servicemain{
+    display: inline;
   }
   #servicemain p {
     font-size: 20px;
