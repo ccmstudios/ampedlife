@@ -738,14 +738,20 @@ display: none;
   #carousel {
     width: 100%;
   }
+
+  #navbar{
+    display: flex;
+    justify-content: space-evenly;
+  }
   #navbar li {
     font-size: smaller;
     position: relative;
     top: 0;
+    padding: 10px;
   }
   #navbar img {
-    display: none;
-  }
+display: none;
+}
 
   #abouttext {
     width: 100%;

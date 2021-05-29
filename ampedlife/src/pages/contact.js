@@ -44,6 +44,7 @@ export default function ContactUs() {
         <form className="contact-form" id="contactform" onSubmit={sendEmail}>
           <input type="hidden" name="contact_number" />
           <div class="form-row">
+           
         <div id="mobilepics">
           <img id="babysmile" src={Babysmile} alt="baby smiling" />
           <img id="babysmile" src={Couple} alt="baby family" />

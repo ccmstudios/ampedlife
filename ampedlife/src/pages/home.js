@@ -3,6 +3,7 @@ import Jumbotron from "../components/jumbotron";
 import Lexi from "../assets/images/lexi.jpg";
 import Card from "react-bootstrap/Card";
 import Doulainfo from "../assets/images/doulainfo.png";
+import {Link} from 'react-router-dom'
 
 class Home extends React.Component {
   render() {
@@ -77,7 +78,10 @@ class Home extends React.Component {
             <h2>Living the Amped Life</h2>
             <h3>Blog</h3>
             <div id="homeblogbutton">
-              <a href="instagram.com/ampedlife360">Read More</a>
+              <Link to ='/blog'>
+
+              <a href="/blog">Read More</a>
+              </Link>
             </div>
           </div>
           <div id="igfeed">
