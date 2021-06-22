@@ -11,7 +11,7 @@ class Footer extends React.Component {
         <h3>Areas Served</h3>
         <h4>
           Servicing the Charlotte Metro Area, Concord, Gastonia, Monroe, Rock
-          Hill, Ballentyne, University, Uptown, Matthews, NODA, Statesville,
+          Hill, Ballantyne, University, Uptown, Matthews, NODA, Statesville,
           Plaza Midwood, Indian Trail, Pineville, Mint Hill
         </h4>
         <h3>Amped Life Doula Services, LLC</h3>
