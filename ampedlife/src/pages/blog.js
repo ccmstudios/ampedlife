@@ -1,5 +1,4 @@
 import React from 'react'
-import Coming from '../components/comingsoon'
 
 class Blog extends React.Component{
     render(){
