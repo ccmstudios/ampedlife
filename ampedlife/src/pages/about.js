@@ -28,7 +28,7 @@ class About extends React.Component {
               <br></br>
               No two pregnancies are the same, even for a person who has had
               multiple children. As your doula, I will use my skills to help
-              create a peaceful environment for you. I want you hold space for
+              create a peaceful environment for you. I want to hold space for
               you where you feel heard, informed and supported. It would be my
               honor to support your birthing needs.
               <br></br>

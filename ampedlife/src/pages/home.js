@@ -3,7 +3,7 @@ import Jumbotron from "../components/jumbotron";
 import Lexi from "../assets/images/lexi.jpg";
 import Card from "react-bootstrap/Card";
 import Doulainfo from "../assets/images/doulainfo.png";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 class Home extends React.Component {
   render() {
@@ -37,15 +37,13 @@ class Home extends React.Component {
             <Card.ImgOverlay>
               <Card.Text>
                 <div id="chatmain">
-                  
-                    <a
-                      target="_blank"
-                      rel="noreferrer"
-                      href="https://l.facebook.com/l.php?u=https%3A%2F%2Fcalendly.com%2Fampedlifedoulaservices%2F30min%3Ffbclid%3DIwAR3QciVOAp_YKsVro2lt2YAcQdya-zlu0eZlI3clIsIKFzocWAMUIgxDGes&h=AT1K337f5DERrE5T97XIZrrP-kIYAo2LdH8ytxTpy-DKrrRmCJtyvu_9WYAuDFrmPLEHGE5KvVRjylvGiGDUrphN8TPibRKzaw9_mO2uJD9WcGBtxfl-YkygtjkAmI21jUTRPcvis-28-45L9oIERw"
-                    >
-                      <h1>Let's Chat!</h1>
-                    </a>
-                
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://l.facebook.com/l.php?u=https%3A%2F%2Fcalendly.com%2Fampedlifedoulaservices%2F30min%3Ffbclid%3DIwAR3QciVOAp_YKsVro2lt2YAcQdya-zlu0eZlI3clIsIKFzocWAMUIgxDGes&h=AT1K337f5DERrE5T97XIZrrP-kIYAo2LdH8ytxTpy-DKrrRmCJtyvu_9WYAuDFrmPLEHGE5KvVRjylvGiGDUrphN8TPibRKzaw9_mO2uJD9WcGBtxfl-YkygtjkAmI21jUTRPcvis-28-45L9oIERw"
+                  >
+                    <h1>Let's Chat!</h1>
+                  </a>
                 </div>
               </Card.Text>
             </Card.ImgOverlay>
@@ -65,7 +63,7 @@ class Home extends React.Component {
           <h1>Why Hire a Doula?</h1>
           <br></br>
           <img
-          id= 'doulainfo'
+            id="doulainfo"
             src={Doulainfo}
             alt="doula info"
             style={{ objectFit: "cover" }}
@@ -78,16 +76,15 @@ class Home extends React.Component {
             <h2>Living the Amped Life</h2>
             <h3>Blog</h3>
             <div id="homeblogbutton">
-              <Link to ='/blog'>
-
-              <a href="/blog">Read More</a>
+              <Link to="/blog">
+                <a href="/blog">Read More</a>
               </Link>
             </div>
           </div>
           <div id="igfeed">
             <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
             <iframe
-            title= 'amped life doula'
+              title="amped life doula"
               src="//lightwidget.com/widgets/ac2a1a92bff152669b9b801ab5f3317f.html"
               scrolling="no"
               allowtransparency="true"
@@ -100,6 +97,7 @@ class Home extends React.Component {
               }}
             ></iframe>
           </div>
+    
         </div>
       </div>
     );

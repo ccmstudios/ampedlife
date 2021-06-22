@@ -285,6 +285,13 @@ body {
 }
 /* About page finish */
 
+/* Blog start */
+#blog{
+  background: linear-gradient(45deg,lightblue,pink);
+  padding:15px;
+}
+/* Blog finish */
+
 /* Services Page start */
 #services {
   display: inline;
@@ -776,6 +783,5 @@ display: none;
   }
 
   #contact h4 {
-    display: none;
-  }
+text-align: center;  }
 }

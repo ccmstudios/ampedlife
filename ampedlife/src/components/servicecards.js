@@ -25,6 +25,8 @@ class Servicecard extends React.Component {
               <h1>Birth Planning Only - $120</h1>
               <br></br>
               <h4>**In-person or Virtual assistance available</h4>
+              <h4>*Sliding scale and Payment plans are available if needed!*</h4>
+
               <br></br>
               <div id="servicemain">
                 <img src={Birth} alt="woman with belly" />
@@ -64,6 +66,8 @@ class Servicecard extends React.Component {
               <h1>Birth Doula - $1100</h1>
               <br></br>
               <h4>**In-person or Virtual assistance available</h4>
+              <h4>*Sliding scale and Payment plans are available if needed!*</h4>
+
               <br></br>
               <div id="servicemain">
                 <img src={Doula} alt="knocked up" />
@@ -122,6 +126,8 @@ class Servicecard extends React.Component {
               <h1>Pregnancy After Loss - $1100</h1>
               <br></br>
               <h4>**In-person or Virtual assistance available</h4>
+              <h4>*Sliding scale and Payment plans are available if needed!*</h4>
+
               <br></br>
               <div id="servicemain">
                 <img src={Rainbow} alt="rainbow tutu" />
@@ -186,6 +192,8 @@ class Servicecard extends React.Component {
               <h4> $25 per additional hour of support</h4>
               <br></br>
               <h4>**In-person or Virtual assistance available</h4>
+              <h4>*Sliding scale and Payment plans are available if needed!*</h4>
+
               <br></br>
               <div id="servicemain">
                 <img src={Postpartum} alt="knocked up" />
@@ -231,6 +239,7 @@ class Servicecard extends React.Component {
               <h1>Bereavement - Complimentary Service</h1>
               <br></br>
               <h4>**In-person or Virtual assistance available</h4>
+              <h4>*Sliding scale and Payment plans are available if needed!*</h4>
               <br></br>
               <div id="servicemain">
                 <img src={Bereavement} alt="knocked up" />
@@ -276,6 +285,8 @@ class Servicecard extends React.Component {
                 <img src={Virtual} alt="coming baby" />
                 <br></br>
                 <br></br>
+                <h4>*Sliding scale and Payment plans are available if needed!*</h4>
+
                 <p>
                   Due to limited space or a desire to have a more intimate setting
                   with just you and your birthing partner, virtual support
