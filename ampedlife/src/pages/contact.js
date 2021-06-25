@@ -25,8 +25,8 @@ export default function ContactUs() {
         (error) => {
           console.log(error.text);
         }
-        );
-        e.target.reset()
+      );
+    e.target.reset();
   }
 
   return (
@@ -44,12 +44,11 @@ export default function ContactUs() {
         <form className="contact-form" id="contactform" onSubmit={sendEmail}>
           <input type="hidden" name="contact_number" />
           <div class="form-row">
-           
-        <div id="mobilepics">
-          <img id="babysmile" src={Babysmile} alt="baby smiling" />
-          <img id="babysmile" src={Couple} alt="baby family" />
-          <img id="babysmile" src={Sleepy} alt="baby sleep" />
-        </div>
+            <div id="mobilepics">
+              <img id="babysmile" src={Babysmile} alt="baby smiling" />
+              <img id="babysmile" src={Couple} alt="baby family" />
+              <img id="babysmile" src={Sleepy} alt="baby sleep" />
+            </div>
             <Form.Group as={Col} controlId="formGridPassword">
               <Form.Label>First Name</Form.Label>
               <Form.Control
@@ -161,4 +160,3 @@ export default function ContactUs() {
     </div>
   );
 }
-
