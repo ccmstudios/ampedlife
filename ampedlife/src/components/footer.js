@@ -26,7 +26,9 @@ class Footer extends React.Component {
         <br></br>
         <Social />
         <img src={Logo} alt="footer amped life" />
-        <h4 className='text-muted'>Website designed by RZN8 Publishing and CCM Studios LLC</h4>
+        <h4 className="text-muted">
+          Website designed by RZN8 Publishing and CCM Studios LLC
+        </h4>
       </div>
     );
   }
